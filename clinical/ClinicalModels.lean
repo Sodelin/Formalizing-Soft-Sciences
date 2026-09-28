@@ -1,3 +1,2 @@
 import ClinicalModels.PublishedCBT
 import ClinicalModels.SourceBridge
-import ClinicalModels.AssistedSelfAssessment

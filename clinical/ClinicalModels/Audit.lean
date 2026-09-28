@@ -18,12 +18,3 @@ import ClinicalModels
 #print axioms ClinicalModels.SourceBridge.source_affective_columns
 #print axioms ClinicalModels.SourceBridge.source_transition_columns
 #print axioms ClinicalModels.SourceBridge.source_implicit_columns
-
-#print axioms ClinicalModels.AssistedSelfAssessment.credited_bounds
-#print axioms ClinicalModels.AssistedSelfAssessment.reversal_threshold
-#print axioms ClinicalModels.AssistedSelfAssessment.full_memory_recovers_gap
-#print axioms ClinicalModels.AssistedSelfAssessment.memory_changes_gap
-#print axioms ClinicalModels.AssistedSelfAssessment.matched_rescues_match_total
-#print axioms ClinicalModels.AssistedSelfAssessment.matched_success_different_order
-#print axioms ClinicalModels.AssistedSelfAssessment.selective_memory_threshold_example
-#print axioms ClinicalModels.AssistedSelfAssessment.forgetting_crosses_boundary
