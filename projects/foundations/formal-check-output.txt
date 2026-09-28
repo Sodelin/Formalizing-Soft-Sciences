@@ -1,0 +1,98 @@
+2026-09-28T02:24:23.6820464Z Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)
+2026-09-28T02:24:24.0189462Z ✔ [2/11] Built SocialScience.Identifiability
+2026-09-28T02:24:24.1138748Z ✔ [3/11] Built SocialScience.Learning
+2026-09-28T02:24:24.2134456Z ✔ [4/11] Built SocialScience.CollectiveAction
+2026-09-28T02:24:24.4152671Z ✔ [5/11] Built SocialScience.Aggregation
+2026-09-28T02:24:24.5154213Z info: ././././Solidarity.lean:125:0: 'Solidarity.path_connected' does not depend on any axioms
+2026-09-28T02:24:24.5154860Z info: ././././Solidarity.lean:126:0: 'Solidarity.at_most_two_neighbors' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:24.5155473Z info: ././././Solidarity.lean:127:0: 'Solidarity.unbounded_reachable' does not depend on any axioms
+2026-09-28T02:24:24.5156036Z info: ././././Solidarity.lean:128:0: 'Solidarity.membership_nesting' does not depend on any axioms
+2026-09-28T02:24:24.5156757Z info: ././././Solidarity.lean:129:0: 'Solidarity.overlapping_memberships' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:24.5157351Z info: ././././Solidarity.lean:130:0: 'Solidarity.connected_without_trust' does not depend on any axioms
+2026-09-28T02:24:24.5157987Z info: ././././Solidarity.lean:131:0: 'Solidarity.cooperation_stable_iff' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:24.5158662Z info: ././././Solidarity.lean:132:0: 'Solidarity.heterogeneous_cooperation_exists' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:24.5159611Z info: ././././Solidarity.lean:133:0: 'Solidarity.homogeneous_cooperation_can_fail' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:24.5160390Z info: ././././Solidarity.lean:134:0: 'Solidarity.symbols_alone_insufficient' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:24.5161061Z info: ././././Solidarity.lean:135:0: 'Solidarity.mutual_gain' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:24.5162017Z ✔ [8/11] Built SocialScience.Measurement
+2026-09-28T02:24:24.5162511Z ✔ [9/11] Built SocialScience.Causality
+2026-09-28T02:24:24.7156703Z ✔ [10/11] Built SocialScience
+2026-09-28T02:24:24.7162642Z Build completed successfully.
+2026-09-28T02:24:25.0615986Z 'Solidarity.path_connected' does not depend on any axioms
+2026-09-28T02:24:25.0617007Z 'Solidarity.at_most_two_neighbors' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:25.0660970Z 'Solidarity.unbounded_reachable' does not depend on any axioms
+2026-09-28T02:24:25.0661560Z 'Solidarity.membership_nesting' does not depend on any axioms
+2026-09-28T02:24:25.0662219Z 'Solidarity.overlapping_memberships' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:25.0662795Z 'Solidarity.connected_without_trust' does not depend on any axioms
+2026-09-28T02:24:25.0663416Z 'Solidarity.cooperation_stable_iff' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:25.0664047Z 'Solidarity.heterogeneous_cooperation_exists' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:25.0664714Z 'Solidarity.homogeneous_cooperation_can_fail' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:25.0665334Z 'Solidarity.symbols_alone_insufficient' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:25.0665893Z 'Solidarity.mutual_gain' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:25.4808328Z 'Solidarity.adj_symm' does not depend on any axioms
+2026-09-28T02:24:25.4809182Z 'Solidarity.reach_trans' does not depend on any axioms
+2026-09-28T02:24:25.4809974Z 'Solidarity.reach_symm' does not depend on any axioms
+2026-09-28T02:24:25.4811242Z 'Solidarity.zero_reaches' does not depend on any axioms
+2026-09-28T02:24:25.4811826Z 'Solidarity.path_connected' does not depend on any axioms
+2026-09-28T02:24:25.4812481Z 'Solidarity.at_most_two_neighbors' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:25.4813135Z 'Solidarity.unbounded_reachable' does not depend on any axioms
+2026-09-28T02:24:25.4813713Z 'Solidarity.membership_nesting' does not depend on any axioms
+2026-09-28T02:24:25.4814685Z 'Solidarity.overlapping_memberships' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:25.4815442Z 'Solidarity.connected_without_trust' does not depend on any axioms
+2026-09-28T02:24:25.4816103Z 'Solidarity.cooperation_stable_iff' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:25.4816791Z 'Solidarity.no_sanction_failure' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:25.4817518Z 'Solidarity.heterogeneous_cooperation_exists' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:25.4818255Z 'Solidarity.homogeneous_cooperation_can_fail' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:25.4819306Z 'Solidarity.symbols_alone_insufficient' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:25.4820015Z 'Solidarity.mutual_gain' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:25.4821378Z 'SocialScience.Aggregation.reversal_cells_valid' does not depend on any axioms
+2026-09-28T02:24:25.4822206Z 'SocialScience.Aggregation.first_stratum_advantage' does not depend on any axioms
+2026-09-28T02:24:25.4822955Z 'SocialScience.Aggregation.second_stratum_advantage' does not depend on any axioms
+2026-09-28T02:24:25.4823691Z 'SocialScience.Aggregation.pooled_reversal' does not depend on any axioms
+2026-09-28T02:24:25.4824430Z 'SocialScience.Aggregation.simpson_reversal' does not depend on any axioms
+2026-09-28T02:24:25.4825226Z 'SocialScience.Aggregation.equal_weight_addition_preserves_order' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:25.4826692Z 'SocialScience.Aggregation.aggregate_cannot_identify_components' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:25.4827614Z 'SocialScience.Aggregation.recoding_cannot_restore_components' does not depend on any axioms
+2026-09-28T02:24:25.4828444Z 'SocialScience.Causality.observational_equivalence' depends on axioms: [Quot.sound]
+2026-09-28T02:24:25.4829426Z 'SocialScience.Causality.intervention_disagreement' does not depend on any axioms
+2026-09-28T02:24:25.4830422Z 'SocialScience.Causality.treatment_effect_numerator' does not depend on any axioms
+2026-09-28T02:24:25.4831772Z 'SocialScience.Causality.common_cause_numerator' does not depend on any axioms
+2026-09-28T02:24:25.4832992Z 'SocialScience.Causality.no_universal_observational_estimator' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:25.4833849Z 'SocialScience.Causality.all_responses_identify' depends on axioms: [Quot.sound]
+2026-09-28T02:24:25.4834715Z 'SocialScience.CollectiveAction.adding_members_preserves_feasibility' does not depend on any axioms
+2026-09-28T02:24:25.4835631Z 'SocialScience.CollectiveAction.restricting_members_preserves_acceptance' does not depend on any axioms
+2026-09-28T02:24:25.4836456Z 'SocialScience.CollectiveAction.union_accepts_iff' does not depend on any axioms
+2026-09-28T02:24:25.4837292Z 'SocialScience.CollectiveAction.indispensable_member_withdrawal' does not depend on any axioms
+2026-09-28T02:24:25.4838930Z 'SocialScience.CollectiveAction.complementary_pair_feasible' does not depend on any axioms
+2026-09-28T02:24:25.4840066Z 'SocialScience.CollectiveAction.no_specialist_alone_feasible' depends on axioms: [propext]
+2026-09-28T02:24:25.4840933Z 'SocialScience.CollectiveAction.aggregate_surplus_not_participation' depends on axioms: [propext]
+2026-09-28T02:24:25.4841979Z 'SocialScience.CollectiveAction.repaired_allocation_ready' does not depend on any axioms
+2026-09-28T02:24:25.4842869Z 'SocialScience.CollectiveAction.two_person_budget_iff' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:25.4843846Z 'SocialScience.CollectiveAction.acceptable_share_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-09-28T02:24:25.4844749Z 'SocialScience.Identifiability.equivalent_refl' does not depend on any axioms
+2026-09-28T02:24:25.4845634Z 'SocialScience.Identifiability.equivalent_symm' does not depend on any axioms
+2026-09-28T02:24:25.4846289Z 'SocialScience.Identifiability.equivalent_trans' does not depend on any axioms
+2026-09-28T02:24:25.4847106Z 'SocialScience.Identifiability.restrict_design' does not depend on any axioms
+2026-09-28T02:24:25.4847869Z 'SocialScience.Identifiability.more_probes_preserve_identification' does not depend on any axioms
+2026-09-28T02:24:25.4848716Z 'SocialScience.Identifiability.postprocess_preserves_equivalence' does not depend on any axioms
+2026-09-28T02:24:25.4849708Z 'SocialScience.Identifiability.baseline_ambiguous' does not depend on any axioms
+2026-09-28T02:24:25.4850479Z 'SocialScience.Identifiability.baseline_not_identified' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:25.4851447Z 'SocialScience.Identifiability.both_probes_identify' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:25.5985473Z 'SocialScience.Learning.fits_empty' depends on axioms: [propext]
+2026-09-28T02:24:25.5989783Z 'SocialScience.Learning.fits_cons_iff' depends on axioms: [propext]
+2026-09-28T02:24:25.5990580Z 'SocialScience.Learning.fits_append_iff' depends on axioms: [propext]
+2026-09-28T02:24:25.5991045Z 'SocialScience.Learning.more_evidence_narrows_models' does not depend on any axioms
+2026-09-28T02:24:25.5991529Z 'SocialScience.Learning.truth_survives_correct_label' depends on axioms: [propext]
+2026-09-28T02:24:25.5992046Z 'SocialScience.Learning.distinguishing_query_eliminates_rival' depends on axioms: [propext]
+2026-09-28T02:24:25.5992541Z 'SocialScience.Learning.conflicting_labels_impossible' does not depend on any axioms
+2026-09-28T02:24:25.5992995Z 'SocialScience.Learning.incorrect_label_excludes_truth' depends on axioms: [propext]
+2026-09-28T02:24:25.5993486Z 'SocialScience.Learning.duplicate_evidence_same_models' depends on axioms: [propext]
+2026-09-28T02:24:25.5994017Z 'SocialScience.Measurement.common_intercept_preserves_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-09-28T02:24:25.5994613Z 'SocialScience.Measurement.common_intercept_preserves_difference' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:25.5995138Z 'SocialScience.Measurement.shift_invariance' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:25.5995946Z 'SocialScience.Measurement.population_shift_invariance' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:25.5996451Z 'SocialScience.Measurement.known_intercept_identifies' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:25.5996981Z 'SocialScience.Measurement.anchor_identifies_intercept' depends on axioms: [propext, Quot.sound]
+2026-09-28T02:24:25.5997459Z 'SocialScience.Measurement.group_intercepts_can_reverse_order' does not depend on any axioms
+2026-09-28T02:24:25.5997963Z 'SocialScience.Measurement.bounded_bias_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+2026-09-28T02:24:25.5998534Z 'SocialScience.Measurement.difference_exceeding_bias_identifies_order' depends on axioms: [propext, Quot.sound]

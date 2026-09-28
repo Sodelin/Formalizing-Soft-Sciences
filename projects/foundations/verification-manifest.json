@@ -1,0 +1,31 @@
+{
+  "version": "0.2",
+  "checked_source_commit": "099908b5d781adc2d5bcdecfe909e57ec75776c4",
+  "workflow_run": "https://github.com/Sodelin/Formalizing-Soft-Sciences/actions/runs/36369678567",
+  "workflow_job_id": 108763148520,
+  "conclusion": "success",
+  "toolchain": "leanprover/lean4:v4.19.0",
+  "checked_theorem_count": 67,
+  "new_theorem_count": 51,
+  "preserved_theorem_count": 16,
+  "dependency_policy": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "hash_algorithm": "sha256",
+  "scope": "Exact Lean/config source bytes from the successful check; subsequent documentation may change independently.",
+  "files": {
+    "Solidarity.lean": "aaed9af2d500f38ae7b9e6a884cfcd2b38118593c05efbd11fa54cd6fbe70374",
+    "SocialScience.lean": "cb459b5c86ea185b8962af9d2694ef185752969888bb0d69a938cb4401b29c1b",
+    "SocialScience/Aggregation.lean": "f46f1a2f29b20757966a3e776561f8864d630f6278c5899fa7fbff3964b90547",
+    "SocialScience/Audit.lean": "b8847765bcfca3c2c616bfb62f15e11d66a058f7fdcbc38c3f8b6e2c53ab7b4a",
+    "SocialScience/Causality.lean": "7e3e0bb9f2110a9edf9c3477292e055284e720188660d996885bd3ca3cbfc953",
+    "SocialScience/CollectiveAction.lean": "8d5c400ffecb3715dc53028590cade8a037b10509b27b91f492e9ee946a82152",
+    "SocialScience/Identifiability.lean": "b98752a6d6215aecbcd6532dba22a0c1b992cd1eacc6f75be0f4f0742c5f4a20",
+    "SocialScience/Learning.lean": "24536459579daf9b64ec1df573ec926bf3aa80f8d27be973c5c8ea66cc532a67",
+    "SocialScience/Measurement.lean": "fffffd7b1f8211cdf677414918dca947b5c2f59a506d06afc44ba77760b0f3e9",
+    "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+    "lakefile.toml": "e00e398cb0d9225df7addf0751fb82998456fe7c99d2c9339d99bfd6ca8aeaf6"
+  }
+}

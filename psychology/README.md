@@ -10,6 +10,10 @@ No existing branch was reset, force-pushed, or deleted. The original checkout is
 
 ## Psychology content available now
 
+The new **[Foundations I report](../projects/foundations/report.md)** extends the psychology work beyond identity and solidarity. Its [theorem guide](../projects/foundations/theorem-guide.md) explains exact identification, additive measurement and bias bounds, observational causal ambiguity, and learning from labeled evidence. The 51 new declarations across six modules are additional work; they are not an import of the missing earlier corpus.
+
+For psychology specifically, these proofs establish consequences of specified response equations and inference rules. They do not validate a scale, prove a theory of human learning, identify a real causal effect, or demonstrate that a psychological construct exists. The [problem register](../projects/foundations/open-problems.md) prioritizes recovering prior work, then extending measurement, experiment design, and noisy learning with appropriate mathematical dependencies.
+
 The substantial psychology section in [What Lean proves](../projects/solidarity-at-scale/formal/what-lean-proves.md) distinguishes familiarity, symbol recognition, beliefs, preferences, identity structure, and behavior. It explains exactly what the available formal results do and do not establish, and proposes future targets without presenting them as implemented. The guide is available as a [PDF](../projects/solidarity-at-scale/outputs/what-lean-proves.pdf) and [DOCX](../projects/solidarity-at-scale/outputs/what-lean-proves.docx).
 
 The [paper](../projects/solidarity-at-scale/paper/manuscript.md) discusses relational familiarity, cultural-marker learning, identity complexity, and cooperation. Its source register identifies the access depth and limitations of each psychological source. The [proposed study](../projects/solidarity-at-scale/protocol/empirical-study.md) separates these constructs in a possible experiment.

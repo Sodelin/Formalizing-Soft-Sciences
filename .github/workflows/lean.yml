@@ -22,3 +22,7 @@ jobs:
           lake build
           lake env lean Solidarity.lean
           lake env lean SocialScience/Audit.lean
+      - name: Check research documentation and provenance
+        run: |
+          python3 scripts/check_foundations.py
+          python3 projects/solidarity-at-scale/scripts/validate_project.py --check-only
