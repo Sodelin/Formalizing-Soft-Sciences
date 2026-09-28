@@ -1,6 +1,9 @@
 name = "solidarity"
-version = "0.1.0"
-defaultTargets = ["Solidarity"]
+version = "0.2.0"
+defaultTargets = ["Solidarity", "SocialScience"]
 
 [[lean_lib]]
 name = "Solidarity"
+
+[[lean_lib]]
+name = "SocialScience"
