@@ -1,0 +1,350 @@
+[
+  {
+    "batch": 1,
+    "date_utc": "2026-09-28",
+    "commands": {
+      "system2_search_query": [
+        {
+          "q": "Balliet Wu De Dreu 2014 ingroup favoritism cooperation meta analysis d 0.32"
+        },
+        {
+          "q": "Mousa 2020 Building social cohesion Christians Muslims soccer Iraq randomized Science"
+        },
+        {
+          "q": "Habyarimana Humphreys Posner Weinstein 2007 Why Does Ethnic Diversity Undermine Public Goods Provision experiment"
+        },
+        {
+          "q": "Paluck Green Green 2019 contact hypothesis re evaluated policy randomized studies"
+        }
+      ],
+      "response_length": "long"
+    }
+  },
+  {
+    "batch": 2,
+    "date_utc": "2026-09-28",
+    "commands": {
+      "system1_search_query": [
+        {
+          "q": "site.povertyactionlab.org Casey Glennerster Miguel Sierra Leone GoBifo institutions collective action 2012"
+        },
+        {
+          "q": "site.nobelprize.org Ostrom lecture nested enterprises 2009"
+        },
+        {
+          "q": "site.aeaweb.org Lowe 2021 Types of Contact field experiment collaborative adversarial intergroup contact"
+        },
+        {
+          "q": "site.combaheerivercollective.weebly.com statement 1977 coalition class race"
+        }
+      ],
+      "response_length": "long"
+    }
+  },
+  {
+    "batch": 3,
+    "date_utc": "2026-09-28",
+    "commands": {
+      "system2_search_query": [
+        {
+          "q": "\"Reshaping Institutions\" \"Sierra Leone\" Casey Glennerster Miguel 2012"
+        },
+        {
+          "q": "\"Types of Contact\" \"Lowe\" 2021"
+        },
+        {
+          "q": "\"Combahee River Collective Statement\" text"
+        },
+        {
+          "q": "\"Beyond Markets and States\" \"Ostrom\" pdf"
+        }
+      ],
+      "open": [
+        {
+          "ref_id": "turn9search47"
+        },
+        {
+          "ref_id": "turn9search48"
+        },
+        {
+          "ref_id": "turn9search4"
+        },
+        {
+          "ref_id": "turn9search33"
+        }
+      ],
+      "response_length": "long"
+    }
+  },
+  {
+    "batch": 4,
+    "date_utc": "2026-09-28",
+    "commands": {
+      "open": [
+        {
+          "ref_id": "turn11search0"
+        },
+        {
+          "ref_id": "turn11search4"
+        },
+        {
+          "ref_id": "turn11search10"
+        },
+        {
+          "ref_id": "turn11search17"
+        },
+        {
+          "ref_id": "turn8search8"
+        },
+        {
+          "ref_id": "turn11search48"
+        }
+      ],
+      "response_length": "long"
+    }
+  },
+  {
+    "batch": 5,
+    "date_utc": "2026-09-28",
+    "commands": {
+      "system2_search_query": [
+        {
+          "q": "\"Kwame Anthony Appiah\" \"Cosmopolitanism\" \"universality\" difference site.appiah.net"
+        },
+        {
+          "q": "\"Elite Capture\" \"Táíwò\" book publisher"
+        },
+        {
+          "q": "\"Adolph Reed\" \"class\" \"antiracism\" nonsite"
+        },
+        {
+          "q": "\"Beyond Markets and States\" pdf Ostrom Indiana"
+        }
+      ],
+      "click": [
+        {
+          "ref_id": "turn12view0",
+          "id": 12
+        },
+        {
+          "ref_id": "turn12view1",
+          "id": 10
+        }
+      ],
+      "response_length": "long"
+    }
+  },
+  {
+    "batch": 6,
+    "date_utc": "2026-09-28",
+    "commands": {
+      "open": [
+        {
+          "ref_id": "turn13search6"
+        },
+        {
+          "ref_id": "turn13search22"
+        },
+        {
+          "ref_id": "turn13search17"
+        }
+      ],
+      "system2_search_query": [
+        {
+          "q": "site.haymarketbooks.org \"Elite Capture\""
+        },
+        {
+          "q": "site.gutenberg.org \"Souls of Black Folk\" 1903"
+        },
+        {
+          "q": "site.marxists.org Nkrumah Africa Must Unite 1963 unity"
+        },
+        {
+          "q": "site.blackpast.org \"Ella Baker\" \"Bigger Than a Hamburger\""
+        }
+      ],
+      "response_length": "short"
+    }
+  },
+  {
+    "batch": 7,
+    "date_utc": "2026-09-28",
+    "commands": {
+      "click": [
+        {
+          "ref_id": "turn14view0",
+          "id": 3
+        },
+        {
+          "ref_id": "turn13view1",
+          "id": 3
+        }
+      ],
+      "open": [
+        {
+          "ref_id": "https://www.gutenberg.org/files/408/408-h/408-h.htm"
+        },
+        {
+          "ref_id": "turn14search4"
+        },
+        {
+          "ref_id": "turn14search5"
+        },
+        {
+          "ref_id": "turn13search32"
+        }
+      ],
+      "response_length": "short"
+    }
+  },
+  {
+    "batch": 8,
+    "date_utc": "2026-09-28",
+    "commands": {
+      "find": [
+        {
+          "ref_id": "turn15view4",
+          "pattern": "Nested"
+        },
+        {
+          "ref_id": "turn11view1",
+          "pattern": "percentage"
+        },
+        {
+          "ref_id": "turn11view2",
+          "pattern": "27"
+        },
+        {
+          "ref_id": "turn15view0",
+          "pattern": "Of Mr. Booker T."
+        },
+        {
+          "ref_id": "turn15view3",
+          "pattern": "universality plus difference"
+        }
+      ],
+      "response_length": "short"
+    }
+  },
+  {
+    "batch": 9,
+    "date_utc": "2026-09-28",
+    "commands": {
+      "open": [
+        {
+          "ref_id": "turn4search12"
+        }
+      ],
+      "system2_search_query": [
+        {
+          "q": "Nancy Fraser From Redistribution to Recognition dilemmas justice post socialist age New Left Review 1995"
+        },
+        {
+          "q": "Adom Getachew Worldmaking after Empire Princeton book self determination"
+        },
+        {
+          "q": "Ella Baker Bigger Than a Hamburger 1960 text SNCC digital gateway"
+        },
+        {
+          "q": "\"Afropessimism, or Black Studies as a Class Project\" date"
+        }
+      ],
+      "response_length": "short"
+    }
+  },
+  {
+    "batch": 10,
+    "date_utc": "2026-09-28",
+    "commands": {
+      "open": [
+        {
+          "ref_id": "turn17search49"
+        },
+        {
+          "ref_id": "turn17search1"
+        },
+        {
+          "ref_id": "turn17search14"
+        }
+      ],
+      "response_length": "short"
+    }
+  },
+  {
+    "batch": 11,
+    "date_utc": "2026-09-28",
+    "commands": {
+      "system1_search_query": [
+        {
+          "q": "site.kinginstitute.stanford.edu \"Beyond Vietnam\" 1967 speech poverty racism militarism"
+        },
+        {
+          "q": "Du Bois 1945 Pan African Congress Declaration Colonial Peoples primary text"
+        },
+        {
+          "q": "Joseph Carens Aliens and Citizens The Case for Open Borders 1987 pdf"
+        },
+        {
+          "q": "Malcolm X Ballot or Bullet April 1964 political philosophy black nationalism economic"
+        }
+      ],
+      "response_length": "long"
+    }
+  },
+  {
+    "batch": 12,
+    "date_utc": "2026-09-28",
+    "commands": {
+      "open": [
+        {
+          "ref_id": "https://www.crmvet.org/docs/mlk-viet.htm"
+        },
+        {
+          "ref_id": "https://people.brandeis.edu/~teuber/Carens%2C%20Aliens%20and%20Citizens.pdf"
+        },
+        {
+          "ref_id": "https://www.ruhr-uni-bochum.de/gna/Quellensammlung/10/10_malcolmxballotorthebullet_1964.html"
+        },
+        {
+          "ref_id": "https://worldhistorycommons.org/web-dubois-details-1919-pan-african-congress-newspaper-article"
+        }
+      ],
+      "response_length": "long"
+    }
+  },
+  {
+    "batch": 13,
+    "date_utc": "2026-09-28",
+    "commands": {
+      "open": [
+        {
+          "ref_id": "turn20view2",
+          "lineno": 32
+        },
+        {
+          "ref_id": "turn20view3",
+          "lineno": 28
+        }
+      ],
+      "system2_search_query": [
+        {
+          "q": "\"Aliens and Citizens\" \"1987\" Carens Cambridge 49 2 251 273"
+        }
+      ],
+      "response_length": "long"
+    }
+  },
+  {
+    "batch": 14,
+    "date_utc": "2026-09-28",
+    "commands": {
+      "open": [
+        {
+          "ref_id": "https://www.marxists.org/subject/africa/nkrumah/neo-colonialism/ch02.htm",
+          "lineno": 0
+        }
+      ]
+    },
+    "purpose": "Verify chapter heading; corrected bibliographic chapter title."
+  }
+]

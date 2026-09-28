@@ -1,0 +1,25 @@
+claim_id,claim_type,claim,source_ids,locator,confidence,boundary
+C01,descriptive,A universal precise 150-person ceiling is not established.,S01;S02,S01 results; S02 abstract,moderate,Personal attention still has costs; lack of a universal value does not imply no constraint.
+C02,formal,A fixed bound on immediate contacts does not bound total connected population.,,Solidarity.path_connected; at_most_two_neighbors; unbounded_reachable,checked,"Reachability omits delay, cognition, trust, and sustained organization."
+C03,mechanism-hypothesis,Significant-other resemblance may shape responses to strangers.,S05,Abstract,tentative,Coalition relevance and effect direction require independent tests.
+C04,causal-bounded,Markers can acquire information about behavior in experimental coordination.,S04,Abstract,moderate,Artificial grouping and abstract-only appraisal.
+C05,descriptive-synthesis,Published in-group cooperation advantage d=0.32 is context-dependent.,S03,Abstract,moderate,Not 32 percent; underlying extraction not repeated.
+C06,causal-bounded,Collaborative contact improved selected intergroup behaviors in Iraqi soccer.,S08,p. 868; on/off-field results,moderate,Limited transfer and selected population.
+C07,causal-bounded,Collaborative versus adversarial cricket contact produced different outcomes.,S09,Abstract,moderate,Full-text appraisal outstanding.
+C08,causal-bounded,Kampala game evidence favors expectations and enforcement over simple tastes.,S07,Results and conclusion,moderate,Interventions do not randomize community composition.
+C09,observational-and-IV,Diversity did not predict worse public goods in the Sierra Leone study.,S12,Empirical and IV results,moderate,Instrument validity and external validity matter; not proof of universal zero.
+C10,causal-bounded,A development program’s output gains did not imply broad institutional change.,S11,Results families A/B,moderate,Specific program and observation window.
+C11,conceptual,Nested or overlapping memberships need not collapse into a single identity.,S06;S28,Abstracts,moderate-conceptual,Behavioral consequences remain separate hypotheses.
+C12,historical-text,Du Bois’s 1903 critique demands political and civic rights alongside education.,S16,Chapter III,high-textual,Not a complete intellectual biography.
+C13,historical-text,Autonomous organization and international linkage coexist in the OAAU program.,S17,Founding speech,high-textual,Program is not an effect estimate or a state constitution.
+C14,historical-text,Specific group oppression and coalition commitments coexist in Combahee’s statement.,S19,Sections 2–3,high-textual,Textual commitment does not establish practical success.
+C15,historical-distinction,An advocacy association is not institutionally equivalent to a territorial state project.,S16;S17;S20,Respective primary texts,high-conceptual,Comparative outcomes still require affected-population and territorial analysis.
+C16,cultural-history,Toasts and Moore’s documented influence supply a cultural transmission case.,S22;S23,Interview bodies,moderate,"No aggregate homogeneity, sole-origin, or political-coalition effect established."
+C17,formal,Mutual contribution in the specified donation game is stable iff cost <= sanction.,,Solidarity.cooperation_stable_iff,checked,Perfect external enforcement; no enforcement cost; label-independent payoffs.
+C18,formal,The model admits heterogeneous cooperation and homogeneous noncooperation.,,Solidarity.heterogeneous_cooperation_exists; homogeneous_cooperation_can_fail,checked,Existence witnesses refute necessity only within definitions; not frequencies.
+C19,normative,"Equal standing, non-domination, and material inclusion are adopted as evaluative goals.",,Report section 5,declared-premise,These values require argument and are not selected by a statistical test.
+C20,policy-inference,Protected group voice plus common projects is a defensible working coalition design.,S07;S08;S09;S11;S13;S19,Cross-source inference; report sections 5 and 12,low-policy,No direct trial of the entire package or all political systems.
+C21,unresolved,Free movement would make group-specific institutions unnecessary.,S26;S34,Normative discussions only,unresolved,"Mobility does not logically erase discrimination, material inequality, or political boundaries."
+C22,unresolved-counterfactual,A cross-group coalition would have prevented colonial conquest.,S21;S27;S29,Bounded historical leads,unresolved,"Requires specified coalition, feasibility, resources, opponents, and counterfactual cases."
+C23,historical-text,King’s 1967 speech links domestic inequality with international obligations.,S32,Opening reasons and concluding values,high-textual,No proof of effectiveness relative to narrower campaigns.
+C24,historical-text,Du Bois’s 1919 congress report documents transnational political organization.,S35,Retrieved transcription,moderate-textual,Original newspaper image has not been collated.

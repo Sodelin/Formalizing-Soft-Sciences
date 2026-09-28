@@ -1,0 +1,19 @@
+{
+  "formal_checked_commit": "841419eea726383da96e105b3b995910b80f2ed0",
+  "formal_run": "https://github.com/Sodelin/Mathematics-of-Psychology-Formalized/actions/runs/36365007772",
+  "source_count": 35,
+  "claim_count": 24,
+  "theorem_count": 16,
+  "hash_algorithm": "sha256",
+  "files": {
+    "Solidarity.lean": "aaed9af2d500f38ae7b9e6a884cfcd2b38118593c05efbd11fa54cd6fbe70374",
+    "lakefile.toml": "34b794917ffe2b60cfb71b732b31f9db55cb8e5bfab358f558cc76d9a83f0245",
+    "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+    "projects/solidarity-at-scale/outputs/solidarity-at-scale-report.docx": "d0c722d86866fad163f3435aed47fd79d1f36cebdc80dcced576679590700315",
+    "projects/solidarity-at-scale/outputs/solidarity-at-scale-paper.docx": "a327918cf76d4974147b6e99151d8bb3737a6c26f88cb707ecacf7c404580823",
+    "projects/solidarity-at-scale/outputs/solidarity-at-scale-paper.pdf": "358628eb5d51327b8c8a885aac694af599548de9297834c342fefe18be500941",
+    "projects/solidarity-at-scale/outputs/solidarity-at-scale-report.pdf": "5564ecc61c22eaa6ff96f005586b3b9f5c45dbc01eb2e946421775f8079b036e",
+    "projects/solidarity-at-scale/paper/manuscript.md": "8bf63477e7a58f84ee8ccc847b2401d7bc93469d870da2982dc900c92dc23e45",
+    "projects/solidarity-at-scale/report/research-report.md": "0cc0e678866ce61bdb58cb079b323c6ac670cc93c079704af8f20e4bb4a5b243"
+  }
+}

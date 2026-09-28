@@ -1,0 +1,6 @@
+name = "solidarity"
+version = "0.1.0"
+defaultTargets = ["Solidarity"]
+
+[[lean_lib]]
+name = "Solidarity"

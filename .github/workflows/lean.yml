@@ -1,0 +1,23 @@
+name: Lean verification
+on:
+  push:
+    branches: [main, 'research/**']
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install pinned Lean toolchain
+        run: |
+          curl -fL --retry 3 -o "$RUNNER_TEMP/lean.tar.zst" https://github.com/leanprover/lean4/releases/download/v4.19.0/lean-4.19.0-linux.tar.zst
+          tar --no-same-owner --zstd -xf "$RUNNER_TEMP/lean.tar.zst" -C "$RUNNER_TEMP"
+          echo "$RUNNER_TEMP/lean-4.19.0-linux/bin" >> "$GITHUB_PATH"
+      - name: Check source and build
+        run: |
+          lean --version
+          if grep -nE '\b(sorry|admit|axiom)\b' Solidarity.lean; then exit 1; fi
+          lake build
+          lake env lean Solidarity.lean
