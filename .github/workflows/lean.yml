@@ -18,6 +18,11 @@ jobs:
       - name: Check source and build
         run: |
           lean --version
-          if grep -nE '\b(sorry|admit|axiom)\b' Solidarity.lean; then exit 1; fi
+          if grep -nRE '\b(sorry|admit|axiom|native_decide)\b' Solidarity.lean SocialScience.lean SocialScience; then exit 1; fi
           lake build
           lake env lean Solidarity.lean
+          lake env lean SocialScience/Audit.lean
+      - name: Check research documentation and provenance
+        run: |
+          python3 scripts/check_foundations.py
+          python3 projects/solidarity-at-scale/scripts/validate_project.py --check-only

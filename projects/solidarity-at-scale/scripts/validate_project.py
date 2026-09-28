@@ -1,6 +1,6 @@
 """Check cross-file IDs, source locators, report structure, proof placeholders, and outputs."""
 from pathlib import Path
-import csv, hashlib, json, re
+import csv, hashlib, json, re, sys
 
 P=Path(__file__).resolve().parents[1];ROOT=P.parents[1]
 def rows(name):
@@ -43,5 +43,6 @@ for f in [ROOT/'README.md',*(ROOT/'psychology').rglob('*.md'),*P.rglob('*.md')]:
 manifest={'formal_checked_commit':'5eb4de33b6f03af1f689d710c239ededf2aaa708','formal_run':'https://github.com/Sodelin/Formalizing-Soft-Sciences/actions/runs/36367099147','source_count':len(sources),'guide_additional_reference_count':7,'claim_count':len(claims),'theorem_count':len(theorems),'hash_algorithm':'sha256','files':{}}
 for f in [ROOT/'Solidarity.lean',ROOT/'lakefile.toml',ROOT/'lean-toolchain',*(P/'outputs').glob('*'),P/'paper/manuscript.md',P/'report/research-report.md',P/'formal/what-lean-proves.md',P/'sources/formalization-prior-work.md']:
     if f.is_file():manifest['files'][str(f.relative_to(ROOT))]=hashlib.sha256(f.read_bytes()).hexdigest()
-(P/'verification-manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
+if '--check-only' not in sys.argv:
+    (P/'verification-manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
 print(f'PASS: {len(sources)} research sources and 7 guide references; {len(claims)} typed claims; {len(theorems)} theorem declarations and matching explanations; 15 report sections; {len(expected)} rendered deliverables; local Markdown links. This script does not run Lean or verify empirical truth.')

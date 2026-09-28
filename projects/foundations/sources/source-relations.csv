@@ -1,0 +1,6 @@
+from_source,to_source,relation,synthesis_note
+F01,F02,methodological-complement,Theory construction and model-recovery checks address different parts of model evaluation.
+F03,F02,measurement-to-modeling,Comparable measurement matters when interpreting fitted psychological parameters.
+F04,F05,qualified-by-additional-assumptions,Positive restricted-network results should be read alongside generic confounding results.
+F07,F06,methodological-context,Sampling and dependence lessons provide context for the newer argument for model-specific treatment.
+F10,F11,formalization-and-validation,A prior application and official validation guidance inform the implementation claim.
