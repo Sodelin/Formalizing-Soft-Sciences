@@ -29,9 +29,19 @@ for f in (P/'formal').glob('*.md'):
     for theorem in re.findall(r'`(\w+)`',f.read_text()):
         if theorem.endswith('_iff'):assert theorem in theorems
 expected=['solidarity-at-scale-paper.docx','solidarity-at-scale-paper.pdf','solidarity-at-scale-report.docx','solidarity-at-scale-report.pdf']
+expected+=['what-lean-proves.docx','what-lean-proves.pdf']
 for name in expected:assert (P/'outputs'/name).stat().st_size>1000,name
-manifest={'formal_checked_commit':'841419eea726383da96e105b3b995910b80f2ed0','formal_run':'https://github.com/Sodelin/Mathematics-of-Psychology-Formalized/actions/runs/36365007772','source_count':len(sources),'claim_count':len(claims),'theorem_count':len(theorems),'hash_algorithm':'sha256','files':{}}
-for f in [ROOT/'Solidarity.lean',ROOT/'lakefile.toml',ROOT/'lean-toolchain',*(P/'outputs').glob('*'),P/'paper/manuscript.md',P/'report/research-report.md']:
+guide=(P/'formal/what-lean-proves.md').read_text()
+assert re.findall(r'^\*\*\d+ (\w+)\.',guide,re.M)==theorems,'Guide must cover every theorem in source order'
+prior=(P/'sources/formalization-prior-work.md').read_text()
+assert set(re.findall(r'^## (N\d+)\s*$',prior,re.M))=={f'N{i:02}' for i in range(1,8)}
+for f in [ROOT/'README.md',*(ROOT/'psychology').rglob('*.md'),*P.rglob('*.md')]:
+    for target in re.findall(r'\]\(([^)]+)\)',f.read_text()):
+        if re.match(r'^[a-zA-Z]+:|^#',target):continue
+        path=target.split('#')[0]
+        assert (f.parent/path).exists(),(f,target)
+manifest={'formal_checked_commit':'5eb4de33b6f03af1f689d710c239ededf2aaa708','formal_run':'https://github.com/Sodelin/Formalizing-Soft-Sciences/actions/runs/36367099147','source_count':len(sources),'guide_additional_reference_count':7,'claim_count':len(claims),'theorem_count':len(theorems),'hash_algorithm':'sha256','files':{}}
+for f in [ROOT/'Solidarity.lean',ROOT/'lakefile.toml',ROOT/'lean-toolchain',*(P/'outputs').glob('*'),P/'paper/manuscript.md',P/'report/research-report.md',P/'formal/what-lean-proves.md',P/'sources/formalization-prior-work.md']:
     if f.is_file():manifest['files'][str(f.relative_to(ROOT))]=hashlib.sha256(f.read_bytes()).hexdigest()
 (P/'verification-manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
-print(f'PASS: {len(sources)} sources; {len(claims)} typed claims; {len(theorems)} theorem declarations; 15 report sections; 4 rendered deliverables. This script does not run Lean or verify empirical truth.')
+print(f'PASS: {len(sources)} research sources and 7 guide references; {len(claims)} typed claims; {len(theorems)} theorem declarations and matching explanations; 15 report sections; {len(expected)} rendered deliverables; local Markdown links. This script does not run Lean or verify empirical truth.')

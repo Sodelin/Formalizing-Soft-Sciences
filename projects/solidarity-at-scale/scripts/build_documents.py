@@ -1,13 +1,14 @@
 """Render the project Markdown to editable DOCX. Requires python-docx.
 
 PDF rendering is a separate LibreOffice step; see HANDOFF.md.
-Only the restricted Markdown constructs used in these two documents are parsed.
+Only the restricted Markdown constructs used in these three documents are parsed.
 """
 from pathlib import Path
 import re
 from docx import Document
 from docx.shared import Inches, Pt, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.enum.table import WD_CELL_VERTICAL_ALIGNMENT
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.opc.constants import RELATIONSHIP_TYPE as RT
@@ -74,15 +75,18 @@ def table(doc, lines):
     cells=[[x.strip() for x in line.strip().strip('|').split('|')] for line in lines]
     cells=[row for row in cells if not all(re.fullmatch(r':?-+:?',c) for c in row)]
     t=doc.add_table(rows=1,cols=len(cells[0])); t.autofit=False
-    width=6.9/len(cells[0])
-    for col in t.columns:col.width=Inches(width)
+    widths={2:[2.2,4.7],3:[1.7,2.6,2.6],4:[1.55,1.65,1.65,2.05]}.get(len(cells[0]),[6.9/len(cells[0])]*len(cells[0]))
+    if cells[0][1]=='Score':widths=[2.3,.6,4.0]
+    for col,width in zip(t.columns,widths):col.width=Inches(width)
     for n,row in enumerate(cells):
         dest=t.rows[0] if n==0 else t.add_row()
         if n==0:
             repeat=OxmlElement('w:tblHeader');dest._tr.get_or_add_trPr().append(repeat)
         no_split=OxmlElement('w:cantSplit');dest._tr.get_or_add_trPr().append(no_split)
-        for cell,txt in zip(dest.cells,row):
+        for cell,txt,width in zip(dest.cells,row,widths):
             cell.width=Inches(width);p=cell.paragraphs[0];inline(p,txt)
+            cell.vertical_alignment=WD_CELL_VERTICAL_ALIGNMENT.CENTER
+            if txt.isdigit():p.alignment=WD_ALIGN_PARAGRAPH.CENTER
             p.paragraph_format.space_after=Pt(3);p.paragraph_format.space_before=Pt(3)
             p.paragraph_format.line_spacing=1.0
             p.paragraph_format.keep_with_next=n<len(cells)-1
@@ -138,15 +142,16 @@ def body(doc, markdown, report=False, references=False):
                 for run in p.runs:run.font.size=Pt(10)
         i+=1
 
-def create(source,stem,title,report=False):
+def create(source,stem,title,report=False,references='sources/references.md'):
     doc=Document();setup(doc,title)
     doc.core_properties.title='Solidarity at scale: '+title
     body(doc,(PROJECT/source).read_text(),report)
     doc.add_page_break()
-    body(doc,(PROJECT/'sources/references.md').read_text(),references=True)
+    body(doc,(PROJECT/references).read_text(),references=True)
     output=PROJECT/'outputs'/f'{stem}.docx';output.parent.mkdir(exist_ok=True)
     doc.save(output);print(output)
 
 if __name__=='__main__':
     create('paper/manuscript.md','solidarity-at-scale-paper','Research manuscript')
     create('report/research-report.md','solidarity-at-scale-report','Evidence and political decision report',True)
+    create('formal/what-lean-proves.md','what-lean-proves','Lean reader guide',references='sources/formalization-prior-work.md')

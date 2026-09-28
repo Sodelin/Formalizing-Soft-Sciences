@@ -1,6 +1,8 @@
 # Handoff and reproduction
 
-The initial project contains a manuscript, separate decision report, 35-source register and BibTeX, typed claims, quantitative extraction, historical comparison, proposed empirical protocol, staged Obsidian notes, and Lean models. Paper and report are supplied as Markdown, editable DOCX, and PDF. The branch is `research/solidarity-at-scale-2026-09-27`; changes are for review and are not to be merged automatically.
+The project contains a manuscript, separate decision report, 35-source register and BibTeX, typed claims, quantitative extraction, historical comparison, proposed empirical protocol, staged Obsidian notes, and Lean models. Paper, report, and the new reader guide are supplied as Markdown, editable DOCX, and PDF. The reader guide adds seven references concerning prior formalization, proof checking, and dissemination.
+
+The user explicitly requested publication to main in `Sodelin/Formalizing-Soft-Sciences`. The first full package was published at `5eb4de33b6f03af1f689d710c239ededf2aaa708`, with a successful Lean workflow on that repository. This supersedes the earlier review-branch-only instruction. The original mathematics-of-psychology repository and its research branch are preserved. Do not force-push or discard unrelated changes.
 
 Lean: from repository root run `lake build` and `lake env lean Solidarity.lean` with Lean 4.19.0. GitHub Actions already passed the formal source at the commit recorded in formal/verification-report.md. The local hosted runner could not start Lean; do not erase that distinction. No Mathlib installation is required.
 
@@ -12,4 +14,6 @@ Zotero: import sources/references.bib into a project collection. Review catalog-
 
 Next research tasks are specific: obtain decisive abstract-only full texts; conduct an independent extraction check; expand the historical sequence and critical perspectives; preregister a coherent next review pass; then evaluate the proposed experimental design. Migration, constitutional arrangements, and the colonial coalition counterfactual remain separate studies. The promised YouTube video or transcript is still absent.
 
-Continuation brief: keep claim types separate; preserve the user’s hypotheses as testable questions; do not turn Lean assumptions into empirical findings; compare effectiveness against stated outcomes and values; retain nulls and failed transfer; update access notes whenever a reading moves beyond an abstract; change conclusions when stronger evidence warrants it. Continue on the review branch and retain unmerged work.
+Continuation brief: keep claim types separate; preserve the user’s hypotheses as testable questions; do not turn Lean assumptions into empirical findings; compare effectiveness against stated outcomes and values; retain nulls and failed transfer; update access notes whenever a reading moves beyond an abstract; change conclusions when stronger evidence warrants it. Continue ordinary reviewed edits on the user-authorized main branch, preserving original sources and histories.
+
+Outstanding preservation requirement: locate and import the substantial prior psychology corpus. Existing accessible GitHub branches and relevant continuity searches have not located it. The user plans to supply screenshots identifying the earlier work. Recover the actual source and pinned environment; record hashes and the theorem inventory; reproduce the original build before changing presentation. The present 16 elementary theorems are not a replacement.

@@ -1,0 +1,25 @@
+2026-09-28T01:44:09.6259117Z Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)
+2026-09-28T01:44:10.1726951Z ℹ [2/3] Built Solidarity
+2026-09-28T01:44:10.1729784Z info: ././././Solidarity.lean:125:0: 'Solidarity.path_connected' does not depend on any axioms
+2026-09-28T01:44:10.1731762Z info: ././././Solidarity.lean:126:0: 'Solidarity.at_most_two_neighbors' depends on axioms: [propext, Quot.sound]
+2026-09-28T01:44:10.1733926Z info: ././././Solidarity.lean:127:0: 'Solidarity.unbounded_reachable' does not depend on any axioms
+2026-09-28T01:44:10.1735629Z info: ././././Solidarity.lean:128:0: 'Solidarity.membership_nesting' does not depend on any axioms
+2026-09-28T01:44:10.1737345Z info: ././././Solidarity.lean:129:0: 'Solidarity.overlapping_memberships' depends on axioms: [propext, Quot.sound]
+2026-09-28T01:44:10.1739222Z info: ././././Solidarity.lean:130:0: 'Solidarity.connected_without_trust' does not depend on any axioms
+2026-09-28T01:44:10.1741166Z info: ././././Solidarity.lean:131:0: 'Solidarity.cooperation_stable_iff' depends on axioms: [propext, Quot.sound]
+2026-09-28T01:44:10.1743639Z info: ././././Solidarity.lean:132:0: 'Solidarity.heterogeneous_cooperation_exists' depends on axioms: [propext, Quot.sound]
+2026-09-28T01:44:10.1745777Z info: ././././Solidarity.lean:133:0: 'Solidarity.homogeneous_cooperation_can_fail' depends on axioms: [propext, Quot.sound]
+2026-09-28T01:44:10.1747819Z info: ././././Solidarity.lean:134:0: 'Solidarity.symbols_alone_insufficient' depends on axioms: [propext, Quot.sound]
+2026-09-28T01:44:10.1749706Z info: ././././Solidarity.lean:135:0: 'Solidarity.mutual_gain' depends on axioms: [propext, Quot.sound]
+2026-09-28T01:44:10.1751175Z Build completed successfully.
+2026-09-28T01:44:10.6364136Z 'Solidarity.path_connected' does not depend on any axioms
+2026-09-28T01:44:10.6365367Z 'Solidarity.at_most_two_neighbors' depends on axioms: [propext, Quot.sound]
+2026-09-28T01:44:10.6366556Z 'Solidarity.unbounded_reachable' does not depend on any axioms
+2026-09-28T01:44:10.6367574Z 'Solidarity.membership_nesting' does not depend on any axioms
+2026-09-28T01:44:10.6368841Z 'Solidarity.overlapping_memberships' depends on axioms: [propext, Quot.sound]
+2026-09-28T01:44:10.6369993Z 'Solidarity.connected_without_trust' does not depend on any axioms
+2026-09-28T01:44:10.6371193Z 'Solidarity.cooperation_stable_iff' depends on axioms: [propext, Quot.sound]
+2026-09-28T01:44:10.6373088Z 'Solidarity.heterogeneous_cooperation_exists' depends on axioms: [propext, Quot.sound]
+2026-09-28T01:44:10.6374302Z 'Solidarity.homogeneous_cooperation_can_fail' depends on axioms: [propext, Quot.sound]
+2026-09-28T01:44:10.6375462Z 'Solidarity.symbols_alone_insufficient' depends on axioms: [propext, Quot.sound]
+2026-09-28T01:44:10.6376452Z 'Solidarity.mutual_gain' depends on axioms: [propext, Quot.sound]

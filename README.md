@@ -4,6 +4,7 @@ Research in psychology and the social sciences, with readable explanations, sour
 
 ## Read the current work
 
+- **[Start here: what Lean proves](projects/solidarity-at-scale/formal/what-lean-proves.md)** — All 16 proofs explained, the psychology section, what is established prior work, and how Durkheim could guide the next model. [Guide PDF](projects/solidarity-at-scale/outputs/what-lean-proves.pdf) · [editable DOCX](projects/solidarity-at-scale/outputs/what-lean-proves.docx).
 - **[Solidarity at scale: paper](projects/solidarity-at-scale/paper/manuscript.md)** — How can cooperation extend beyond people we know? Identity, cultural signs, material interests, institutions, and political coalitions.
 - **[Evidence and political decision report](projects/solidarity-at-scale/report/research-report.md)** — Start with its executive brief. The recommendation is conditional on equal rights, non-domination, and broadly shared gains.
 - **[Paper PDF](projects/solidarity-at-scale/outputs/solidarity-at-scale-paper.pdf)** and **[report PDF](projects/solidarity-at-scale/outputs/solidarity-at-scale-report.pdf)** — Readable downloads with references; editable DOCX versions are in the same folder.
@@ -21,8 +22,8 @@ The research documents are an initial targeted synthesis, not a completed system
 
 This repository is the requested home for work extending beyond psychology. The current research package was carried forward from this session's working copy. The larger pre-existing psychology corpus described by Nolan has **not yet been located or imported**; the current 16 theorems must not be presented as its replacement. Existing source repositories and branches remain intact.
 
-The published package is on main for reading and discussion. A separate plain-language guide covering novelty, psychology, sociology, and dissemination is being completed. GitHub availability is not journal publication or peer review.
+The published package and plain-language guide are on main for reading and discussion. The [publication record](projects/solidarity-at-scale/publication/README.md) distinguishes public files, the prepared share note, and future review or archival steps. GitHub availability is not journal publication or peer review.
 
 ## Reproduce the formal checks
 
-With the pinned toolchain installed, run `lake build` and then `lake env lean Solidarity.lean` from this repository's root. The [verification receipt](projects/solidarity-at-scale/formal/verification-report.md) records the original successful run; the same workflow also runs here on main.
+With the pinned toolchain installed, run `lake build` and then `lake env lean Solidarity.lean` from this repository's root. The [verification receipt](projects/solidarity-at-scale/formal/verification-report.md) records successful runs both in the original working repository and here on main.

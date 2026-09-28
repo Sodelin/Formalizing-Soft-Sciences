@@ -10,6 +10,8 @@ No existing branch was reset, force-pushed, or deleted. The original checkout is
 
 ## Psychology content available now
 
+The substantial psychology section in [What Lean proves](../projects/solidarity-at-scale/formal/what-lean-proves.md) distinguishes familiarity, symbol recognition, beliefs, preferences, identity structure, and behavior. It explains exactly what the available formal results do and do not establish, and proposes future targets without presenting them as implemented. The guide is available as a [PDF](../projects/solidarity-at-scale/outputs/what-lean-proves.pdf) and [DOCX](../projects/solidarity-at-scale/outputs/what-lean-proves.docx).
+
 The [paper](../projects/solidarity-at-scale/paper/manuscript.md) discusses relational familiarity, cultural-marker learning, identity complexity, and cooperation. Its source register identifies the access depth and limitations of each psychological source. The [proposed study](../projects/solidarity-at-scale/protocol/empirical-study.md) separates these constructs in a possible experiment.
 
 The [current Lean specification](../projects/solidarity-at-scale/formal/specification.md) concerns relationships among formal variables. It does not verify the relational-self theory, estimate a cognitive relationship limit, or establish an empirical effect of identity on behavior. Those claims need observations and a justified connection between the formal variables and psychological measures.
