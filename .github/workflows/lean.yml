@@ -26,3 +26,11 @@ jobs:
         run: |
           python3 scripts/check_foundations.py
           python3 projects/solidarity-at-scale/scripts/validate_project.py --check-only
+      - name: Verify published CBT model fragment
+        run: |
+          if grep -nRE '\b(sorry|admit|axiom|native_decide)\b' clinical/ClinicalModels.lean clinical/ClinicalModels; then exit 1; fi
+          curl -fL --retry 3 -o "$RUNNER_TEMP/CBT_model.m" https://raw.githubusercontent.com/rssmith33/Simulating_Cognitive_Behavioral_Therapy/82a0a3d75b0bdc08d2b78cdf2201d7aa626c27a3/CBT_model.m
+          python3 clinical/scripts/source_bridge.py --check "$RUNNER_TEMP/CBT_model.m"
+          cd clinical
+          lake build
+          lake env lean ClinicalModels/Audit.lean
