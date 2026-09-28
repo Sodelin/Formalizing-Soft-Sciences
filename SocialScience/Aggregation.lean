@@ -11,11 +11,17 @@ theorem reversal_cells_valid :
     9 ≤ (10 : Nat) ∧ 80 ≤ (100 : Nat) ∧ 20 ≤ (100 : Nat) ∧ 1 ≤ (10 : Nat) ∧
     0 < (10 : Nat) ∧ 0 < (100 : Nat) := by decide
 
-theorem first_stratum_advantage : Higher 9 10 80 100 := by decide
+theorem first_stratum_advantage : Higher 9 10 80 100 := by
+  unfold Higher
+  decide
 
-theorem second_stratum_advantage : Higher 20 100 1 10 := by decide
+theorem second_stratum_advantage : Higher 20 100 1 10 := by
+  unfold Higher
+  decide
 
-theorem pooled_reversal : Higher (80 + 1) (100 + 10) (9 + 20) (10 + 100) := by decide
+theorem pooled_reversal : Higher (80 + 1) (100 + 10) (9 + 20) (10 + 100) := by
+  unfold Higher
+  decide
 
 theorem simpson_reversal :
     Higher 9 10 80 100 ∧ Higher 20 100 1 10 ∧
