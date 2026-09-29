@@ -1,0 +1,6 @@
+name = "clinical_models"
+version = "0.1.0"
+defaultTargets = ["ClinicalModels"]
+
+[[lean_lib]]
+name = "ClinicalModels"
