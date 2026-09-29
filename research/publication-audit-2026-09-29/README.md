@@ -18,6 +18,8 @@ The central question is practical: when do observations distinguish competing ex
 
 The engineering work has a concrete purpose: keeping the informal interpretation, exact declaration, proof dependencies, source tables and verification receipts aligned. That alignment is the feature to present prominently. A large declaration count is useful for coverage, but is not evidence of an equal number of discoveries.
 
+The parallel document-recovery chat has also preserved the [17-page article, 77-page monograph and their PDF/EPUB editions](../../ASTRA-HANDOFF.md). Those books explain the 67-declaration core release; they add explanatory and production artifacts rather than new theorem declarations. This audit covers the complete current 85-declaration corpus, including the clinical extension that is outside those historical editions.
+
 ## The theorem-by-theorem judgment
 
 [Every declaration is explained and linked here](THEOREM-BY-THEOREM.md). The [CSV](theorem-audit.csv) and [JSON](theorem-audit.json) additionally record formal signatures, assumptions, within-package roles, source-question connections, immutable line anchors and SHA-256 hashes. They distinguish endpoints, witnesses, supporting lemmas, consequences, reused results and integrity checks. No declaration is discarded for being supporting work.

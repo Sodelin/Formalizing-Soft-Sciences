@@ -171,7 +171,7 @@ def generate():
             if r['family']==group:
                 lines.append(f"| {r['number']} | [{r['declaration'].split('.')[-1]}]({r['source_url']}) | {r['role']} | {r['review_note']} |")
         lines.append('')
-    output['THEOREM-BY-THEOREM.md']='\n'.join(lines)+'\n'
+    output['THEOREM-BY-THEOREM.md']='\n'.join(lines).rstrip()+'\n'
     return output
 
 if __name__ == '__main__':

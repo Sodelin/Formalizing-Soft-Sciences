@@ -1,0 +1,337 @@
+[
+  {
+    "file": "Solidarity.lean",
+    "name": "adj_symm",
+    "line": 14
+  },
+  {
+    "file": "Solidarity.lean",
+    "name": "reach_trans",
+    "line": 16
+  },
+  {
+    "file": "Solidarity.lean",
+    "name": "reach_symm",
+    "line": 21
+  },
+  {
+    "file": "Solidarity.lean",
+    "name": "zero_reaches",
+    "line": 27
+  },
+  {
+    "file": "Solidarity.lean",
+    "name": "path_connected",
+    "line": 32
+  },
+  {
+    "file": "Solidarity.lean",
+    "name": "at_most_two_neighbors",
+    "line": 36
+  },
+  {
+    "file": "Solidarity.lean",
+    "name": "unbounded_reachable",
+    "line": 43
+  },
+  {
+    "file": "Solidarity.lean",
+    "name": "membership_nesting",
+    "line": 50
+  },
+  {
+    "file": "Solidarity.lean",
+    "name": "overlapping_memberships",
+    "line": 55
+  },
+  {
+    "file": "Solidarity.lean",
+    "name": "connected_without_trust",
+    "line": 68
+  },
+  {
+    "file": "Solidarity.lean",
+    "name": "cooperation_stable_iff",
+    "line": 85
+  },
+  {
+    "file": "Solidarity.lean",
+    "name": "no_sanction_failure",
+    "line": 95
+  },
+  {
+    "file": "Solidarity.lean",
+    "name": "heterogeneous_cooperation_exists",
+    "line": 102
+  },
+  {
+    "file": "Solidarity.lean",
+    "name": "homogeneous_cooperation_can_fail",
+    "line": 108
+  },
+  {
+    "file": "Solidarity.lean",
+    "name": "symbols_alone_insufficient",
+    "line": 114
+  },
+  {
+    "file": "Solidarity.lean",
+    "name": "mutual_gain",
+    "line": 120
+  },
+  {
+    "file": "SocialScience/Learning.lean",
+    "name": "fits_empty",
+    "line": 9
+  },
+  {
+    "file": "SocialScience/Learning.lean",
+    "name": "fits_cons_iff",
+    "line": 13
+  },
+  {
+    "file": "SocialScience/Learning.lean",
+    "name": "fits_append_iff",
+    "line": 29
+  },
+  {
+    "file": "SocialScience/Learning.lean",
+    "name": "more_evidence_narrows_models",
+    "line": 44
+  },
+  {
+    "file": "SocialScience/Learning.lean",
+    "name": "truth_survives_correct_label",
+    "line": 49
+  },
+  {
+    "file": "SocialScience/Learning.lean",
+    "name": "distinguishing_query_eliminates_rival",
+    "line": 54
+  },
+  {
+    "file": "SocialScience/Learning.lean",
+    "name": "conflicting_labels_impossible",
+    "line": 60
+  },
+  {
+    "file": "SocialScience/Learning.lean",
+    "name": "incorrect_label_excludes_truth",
+    "line": 67
+  },
+  {
+    "file": "SocialScience/Learning.lean",
+    "name": "duplicate_evidence_same_models",
+    "line": 74
+  },
+  {
+    "file": "SocialScience/Identifiability.lean",
+    "name": "equivalent_refl",
+    "line": 13
+  },
+  {
+    "file": "SocialScience/Identifiability.lean",
+    "name": "equivalent_symm",
+    "line": 17
+  },
+  {
+    "file": "SocialScience/Identifiability.lean",
+    "name": "equivalent_trans",
+    "line": 21
+  },
+  {
+    "file": "SocialScience/Identifiability.lean",
+    "name": "restrict_design",
+    "line": 26
+  },
+  {
+    "file": "SocialScience/Identifiability.lean",
+    "name": "more_probes_preserve_identification",
+    "line": 31
+  },
+  {
+    "file": "SocialScience/Identifiability.lean",
+    "name": "postprocess_preserves_equivalence",
+    "line": 37
+  },
+  {
+    "file": "SocialScience/Identifiability.lean",
+    "name": "baseline_ambiguous",
+    "line": 47
+  },
+  {
+    "file": "SocialScience/Identifiability.lean",
+    "name": "baseline_not_identified",
+    "line": 53
+  },
+  {
+    "file": "SocialScience/Identifiability.lean",
+    "name": "both_probes_identify",
+    "line": 60
+  },
+  {
+    "file": "SocialScience/Causality.lean",
+    "name": "observational_equivalence",
+    "line": 23
+  },
+  {
+    "file": "SocialScience/Causality.lean",
+    "name": "intervention_disagreement",
+    "line": 27
+  },
+  {
+    "file": "SocialScience/Causality.lean",
+    "name": "treatment_effect_numerator",
+    "line": 30
+  },
+  {
+    "file": "SocialScience/Causality.lean",
+    "name": "common_cause_numerator",
+    "line": 32
+  },
+  {
+    "file": "SocialScience/Causality.lean",
+    "name": "no_universal_observational_estimator",
+    "line": 35
+  },
+  {
+    "file": "SocialScience/Causality.lean",
+    "name": "all_responses_identify",
+    "line": 47
+  },
+  {
+    "file": "SocialScience/CollectiveAction.lean",
+    "name": "adding_members_preserves_feasibility",
+    "line": 17
+  },
+  {
+    "file": "SocialScience/CollectiveAction.lean",
+    "name": "restricting_members_preserves_acceptance",
+    "line": 25
+  },
+  {
+    "file": "SocialScience/CollectiveAction.lean",
+    "name": "union_accepts_iff",
+    "line": 30
+  },
+  {
+    "file": "SocialScience/CollectiveAction.lean",
+    "name": "indispensable_member_withdrawal",
+    "line": 41
+  },
+  {
+    "file": "SocialScience/CollectiveAction.lean",
+    "name": "complementary_pair_feasible",
+    "line": 52
+  },
+  {
+    "file": "SocialScience/CollectiveAction.lean",
+    "name": "no_specialist_alone_feasible",
+    "line": 56
+  },
+  {
+    "file": "SocialScience/CollectiveAction.lean",
+    "name": "aggregate_surplus_not_participation",
+    "line": 72
+  },
+  {
+    "file": "SocialScience/CollectiveAction.lean",
+    "name": "repaired_allocation_ready",
+    "line": 81
+  },
+  {
+    "file": "SocialScience/CollectiveAction.lean",
+    "name": "two_person_budget_iff",
+    "line": 88
+  },
+  {
+    "file": "SocialScience/CollectiveAction.lean",
+    "name": "acceptable_share_interval",
+    "line": 96
+  },
+  {
+    "file": "SocialScience/Aggregation.lean",
+    "name": "reversal_cells_valid",
+    "line": 10
+  },
+  {
+    "file": "SocialScience/Aggregation.lean",
+    "name": "first_stratum_advantage",
+    "line": 14
+  },
+  {
+    "file": "SocialScience/Aggregation.lean",
+    "name": "second_stratum_advantage",
+    "line": 18
+  },
+  {
+    "file": "SocialScience/Aggregation.lean",
+    "name": "pooled_reversal",
+    "line": 22
+  },
+  {
+    "file": "SocialScience/Aggregation.lean",
+    "name": "simpson_reversal",
+    "line": 26
+  },
+  {
+    "file": "SocialScience/Aggregation.lean",
+    "name": "equal_weight_addition_preserves_order",
+    "line": 32
+  },
+  {
+    "file": "SocialScience/Aggregation.lean",
+    "name": "aggregate_cannot_identify_components",
+    "line": 36
+  },
+  {
+    "file": "SocialScience/Aggregation.lean",
+    "name": "recoding_cannot_restore_components",
+    "line": 41
+  },
+  {
+    "file": "SocialScience/Measurement.lean",
+    "name": "common_intercept_preserves_order",
+    "line": 8
+  },
+  {
+    "file": "SocialScience/Measurement.lean",
+    "name": "common_intercept_preserves_difference",
+    "line": 13
+  },
+  {
+    "file": "SocialScience/Measurement.lean",
+    "name": "shift_invariance",
+    "line": 18
+  },
+  {
+    "file": "SocialScience/Measurement.lean",
+    "name": "population_shift_invariance",
+    "line": 23
+  },
+  {
+    "file": "SocialScience/Measurement.lean",
+    "name": "known_intercept_identifies",
+    "line": 30
+  },
+  {
+    "file": "SocialScience/Measurement.lean",
+    "name": "anchor_identifies_intercept",
+    "line": 35
+  },
+  {
+    "file": "SocialScience/Measurement.lean",
+    "name": "group_intercepts_can_reverse_order",
+    "line": 41
+  },
+  {
+    "file": "SocialScience/Measurement.lean",
+    "name": "bounded_bias_interval",
+    "line": 45
+  },
+  {
+    "file": "SocialScience/Measurement.lean",
+    "name": "difference_exceeding_bias_identifies_order",
+    "line": 52
+  }
+]

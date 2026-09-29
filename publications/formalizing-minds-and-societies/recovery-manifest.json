@@ -1,0 +1,355 @@
+{
+  "schema_version": 1,
+  "recovered_at_utc": "2026-09-29T21:43:53.654012+00:00",
+  "repository": "https://github.com/Sodelin/Formalizing-Soft-Sciences",
+  "publication_source_commit": "780f1b83aef15a9cf455566bab9df2a47d738074",
+  "integration_base_commit": "7835157627548823f03f29dd3987e55601807b55",
+  "scope": "Recovered publications and production materials from the document-building session; no new Lean declarations.",
+  "counts": {
+    "original_solidarity": 16,
+    "foundations_addition": 51,
+    "book_corpus": 67,
+    "separate_clinical_extension": 18,
+    "active_source_total_at_integration_base": 85,
+    "source_archive_files": 23
+  },
+  "historical_verification_run": "https://github.com/Sodelin/Formalizing-Soft-Sciences/actions/runs/36392008029",
+  "core_source_sha256": {
+    "Solidarity.lean": "aaed9af2d500f38ae7b9e6a884cfcd2b38118593c05efbd11fa54cd6fbe70374",
+    "SocialScience.lean": "cb459b5c86ea185b8962af9d2694ef185752969888bb0d69a938cb4401b29c1b",
+    "SocialScience/Aggregation.lean": "f46f1a2f29b20757966a3e776561f8864d630f6278c5899fa7fbff3964b90547",
+    "SocialScience/Audit.lean": "b8847765bcfca3c2c616bfb62f15e11d66a058f7fdcbc38c3f8b6e2c53ab7b4a",
+    "SocialScience/Causality.lean": "7e3e0bb9f2110a9edf9c3477292e055284e720188660d996885bd3ca3cbfc953",
+    "SocialScience/CollectiveAction.lean": "8d5c400ffecb3715dc53028590cade8a037b10509b27b91f492e9ee946a82152",
+    "SocialScience/Identifiability.lean": "b98752a6d6215aecbcd6532dba22a0c1b992cd1eacc6f75be0f4f0742c5f4a20",
+    "SocialScience/Learning.lean": "24536459579daf9b64ec1df573ec926bf3aa80f8d27be973c5c8ea66cc532a67",
+    "SocialScience/Measurement.lean": "fffffd7b1f8211cdf677414918dca947b5c2f59a506d06afc44ba77760b0f3e9"
+  },
+  "checks": {
+    "original_source_archive_crc": "pass",
+    "source_archive_exact_local_match": true,
+    "inventory_unique_names_and_line_locations": 67,
+    "core_axiom_audit_covers_inventory": true,
+    "core_source_identical_to_publication_pin": true,
+    "inspection_copies_difference": "Each file equals the pinned Git blob plus one terminal newline.",
+    "existing_foundations_validator": "pass",
+    "existing_solidarity_validator_check_only": "pass",
+    "publications": {
+      "research-article": {
+        "pages": 17,
+        "page_text_equal": true,
+        "bookmarks_equal": true,
+        "reference_count": 17,
+        "restored_pdf_sha256": "27886ec8d7a4ccab0b12abff367d6b68e1580b7f1f568bea0b1afc9c265758c6",
+        "original_pdf_sha256": "03bda4e9d5c536b9a5c020d0d2c5d1343dc57c78cf756227c2ced83cf6a476e9",
+        "restored_pdf_bytes": 516304,
+        "original_pdf_bytes": 491307,
+        "epub_exact_local_match": true
+      },
+      "dissertation": {
+        "pages": 77,
+        "page_text_equal": true,
+        "bookmarks_equal": true,
+        "reference_count": 21,
+        "restored_pdf_sha256": "7b00ea2c1ceee99df02a4dece43d7af8a6a5bbdbfeab14a1bbc99c6b37eaa0fe",
+        "original_pdf_sha256": "21fd90e3051adf4b3206df4d1ea77f28786b8871af7d36bbcb37b69564901974",
+        "restored_pdf_bytes": 842994,
+        "original_pdf_bytes": 817992,
+        "epub_exact_local_match": true
+      }
+    },
+    "publication_structure": {
+      "research-article": {
+        "pages": 17,
+        "bookmarks": 23,
+        "pdf_bytes": 516304,
+        "epub_bytes": 25467,
+        "epub_mathml_equations": 0,
+        "contact_sheets": [
+          "tmp/pdfs/research-article-contact-1.jpg",
+          "tmp/pdfs/research-article-contact-2.jpg"
+        ],
+        "geometry_issues": [],
+        "epub_link_issues": []
+      },
+      "dissertation": {
+        "pages": 77,
+        "bookmarks": 66,
+        "pdf_bytes": 842994,
+        "epub_bytes": 79644,
+        "epub_mathml_equations": 8,
+        "contact_sheets": [
+          "tmp/pdfs/dissertation-contact-1.jpg",
+          "tmp/pdfs/dissertation-contact-2.jpg",
+          "tmp/pdfs/dissertation-contact-3.jpg",
+          "tmp/pdfs/dissertation-contact-4.jpg",
+          "tmp/pdfs/dissertation-contact-5.jpg"
+        ],
+        "geometry_issues": [],
+        "epub_link_issues": []
+      }
+    }
+  },
+  "exclusions": [
+    "This manifest itself",
+    "Regenerable files under tmp/",
+    "Material from unavailable conversations or an unlocated older psychology corpus"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3824,
+      "sha256": "07e00ab740d10d7e7374ee094a4b9ddaac778650c0eec14a3f505571c66b5e4c"
+    },
+    {
+      "path": "RECOVERY.md",
+      "bytes": 5007,
+      "sha256": "58c57183b41de63640a78bee4221ef83db4d8c30e1db78dadee74997c3d671f8"
+    },
+    {
+      "path": "archive/source-pack-as-saved.zip",
+      "bytes": 140602,
+      "sha256": "90708b53224554f0562d4d6910f3fd5235774ca3336498efabf7bb1652d4d0bd"
+    },
+    {
+      "path": "build_publications.py",
+      "bytes": 17374,
+      "sha256": "42fa6078c4f36f0f4b470b17cc35afe163cc42dc1f532f28783c30251c941649"
+    },
+    {
+      "path": "check_publications.py",
+      "bytes": 3831,
+      "sha256": "4e2a2111520564d5f9d1b69d6b5d711ffccda4950b956bac676522366412be02"
+    },
+    {
+      "path": "inputs/how-we-formalized-society.md",
+      "bytes": 121596,
+      "sha256": "f4d2eb4c1bb7774f30aa70644c01f173267b7f900da32c63c28acc923c142819"
+    },
+    {
+      "path": "manuscript-metadata.json",
+      "bytes": 722,
+      "sha256": "2987ea78dc8415880fd483d8af2a11dc0c7dad3b1d3e2a87e5e12e5e84bdab02"
+    },
+    {
+      "path": "output/epub/dissertation.epub",
+      "bytes": 79644,
+      "sha256": "fdc52ddbad662ad66e03fde0a103ac7368d8441449a5ad8e3f43f4819a48a7eb"
+    },
+    {
+      "path": "output/epub/research-article.epub",
+      "bytes": 25467,
+      "sha256": "855c516ca1e23f366481f6dce2324740464c4028e236ea267061a2b9ae847516"
+    },
+    {
+      "path": "output/pdf/dissertation.pdf",
+      "bytes": 842994,
+      "sha256": "7b00ea2c1ceee99df02a4dece43d7af8a6a5bbdbfeab14a1bbc99c6b37eaa0fe"
+    },
+    {
+      "path": "output/pdf/research-article.pdf",
+      "bytes": 516304,
+      "sha256": "27886ec8d7a4ccab0b12abff367d6b68e1580b7f1f568bea0b1afc9c265758c6"
+    },
+    {
+      "path": "output/quality-checks.json",
+      "bytes": 788,
+      "sha256": "c4cbdf1f3d16123ceb86d890c09f98050d792001b98792549f2f932144b06412"
+    },
+    {
+      "path": "production-history/README.md",
+      "bytes": 1373,
+      "sha256": "d42567b466f5bac7c4390c201d528f30c61663ba1f659bd2ee2e1b223b23ca48"
+    },
+    {
+      "path": "production-history/article-draft.md",
+      "bytes": 21003,
+      "sha256": "11feb3d4a36fdbb33ed899d260658d0ecfddcf8644bc95217e84c69579d53cf1"
+    },
+    {
+      "path": "production-history/assemble_manuscripts.py",
+      "bytes": 11622,
+      "sha256": "28cc0935766ba292498acb842a86287b4f94e1aba1a6949cd8036775b69d3be8"
+    },
+    {
+      "path": "production-history/inspected-source/.github/workflows/lean.yml",
+      "bytes": 1094,
+      "sha256": "8eb684861458da5ccca71192522cd58dd8b691fbc5d689063d59376905f491ed"
+    },
+    {
+      "path": "production-history/inspected-source/SocialScience/Aggregation.lean",
+      "bytes": 1869,
+      "sha256": "66b4614ee67e825e2f81997ec8658e1cc6bbe298e85b0a3a032d3633304874d4"
+    },
+    {
+      "path": "production-history/inspected-source/SocialScience/Audit.lean",
+      "bytes": 4292,
+      "sha256": "cc21073432df94288ebddd30ea1a5d80a88efd9a5e97fd098fd1848b30048ab8"
+    },
+    {
+      "path": "production-history/inspected-source/SocialScience/Causality.lean",
+      "bytes": 2374,
+      "sha256": "1aee37d097040451d5daf8982d0032f8e92ef11ff2839cb5168cfac87aae90a4"
+    },
+    {
+      "path": "production-history/inspected-source/SocialScience/CollectiveAction.lean",
+      "bytes": 4185,
+      "sha256": "f250999aee8d56e832cd9d9b9e3d94cdf6f672f6521fd918e131b81cd5781d74"
+    },
+    {
+      "path": "production-history/inspected-source/SocialScience/Identifiability.lean",
+      "bytes": 2889,
+      "sha256": "38ee941536ae6bda421700e085c53fcf07ad02d8521b3a1b8684d7649e41904d"
+    },
+    {
+      "path": "production-history/inspected-source/SocialScience/Learning.lean",
+      "bytes": 3259,
+      "sha256": "8a9a00b53fa3ce9130212b631d841110a3b9be76a6c39fddbaa39fdfb050eb5f"
+    },
+    {
+      "path": "production-history/inspected-source/SocialScience/Measurement.lean",
+      "bytes": 2170,
+      "sha256": "cfab5873899593293c2844c509aed895a6d290df43d033a04ad0a33bb752f500"
+    },
+    {
+      "path": "production-history/inspected-source/Solidarity.lean",
+      "bytes": 5335,
+      "sha256": "f8da85708566649e4250a56aaa3e9e50f75c25f19d91e5a13107ef3bfdb432f5"
+    },
+    {
+      "path": "production-history/inspected-source/projects/foundations/verification.md",
+      "bytes": 2936,
+      "sha256": "6e22819d5f0f7fbac9c6f82b044a1bb36a4fb7630a30b210b223d71a2bf10e04"
+    },
+    {
+      "path": "production-history/original-pdf/dissertation.pdf",
+      "bytes": 817992,
+      "sha256": "21fd90e3051adf4b3206df4d1ea77f28786b8871af7d36bbcb37b69564901974"
+    },
+    {
+      "path": "production-history/original-pdf/research-article.pdf",
+      "bytes": 491307,
+      "sha256": "03bda4e9d5c536b9a5c020d0d2c5d1343dc57c78cf756227c2ced83cf6a476e9"
+    },
+    {
+      "path": "production-history/records/build-results.json",
+      "bytes": 428,
+      "sha256": "eef490380366b504c66a11dea9104c82752de59f46f4242ef38ee28ded53da68"
+    },
+    {
+      "path": "production-history/records/epub-style.css",
+      "bytes": 998,
+      "sha256": "12a2d8120d4c180a7b98c3f44964706268cd8cd2c3dcea2fa0babba4f72e09e1"
+    },
+    {
+      "path": "production-history/records/quality-checks.json",
+      "bytes": 1011,
+      "sha256": "f5f27624d1c9b4480f7fd2027148a2623f35b30899963b7abb8d8e66485deabc"
+    },
+    {
+      "path": "production-history/refine_manuscripts.py",
+      "bytes": 27481,
+      "sha256": "8e5437565b8d5255b6a95584f010218db743168eb446e85ec1b17c52a329cc0b"
+    },
+    {
+      "path": "production-history/theorem_source_index.json",
+      "bytes": 7192,
+      "sha256": "4b8d027d7d1bc70830aa4d140719859f531eba4900d313edfc216189c24cd1c5"
+    },
+    {
+      "path": "quality-record.json",
+      "bytes": 574,
+      "sha256": "3aabd97ba36c58398469532375673935aeca253aed92672463ac23de4ad68fd5"
+    },
+    {
+      "path": "reading-pack/00-decision-brief.md",
+      "bytes": 3167,
+      "sha256": "d4a7409120e69527e694bb36486852135bd103b85b36d73accb060d3a6fb3f88"
+    },
+    {
+      "path": "reading-pack/01-fields-and-formalization.md",
+      "bytes": 22898,
+      "sha256": "70aa68562d0c5fa90ee7ad00079a471352bac710c9492c7ca6d7537821502716"
+    },
+    {
+      "path": "reading-pack/02-theorem-atlas.md",
+      "bytes": 32282,
+      "sha256": "2c696d3d4a82a2a9a1bf90099a4c61446d62cfebd311510fdf58a74b4f8b832d"
+    },
+    {
+      "path": "reading-pack/03-worked-arguments.md",
+      "bytes": 17570,
+      "sha256": "a35f4bebc5446603554ab935ee998052d774ee11159fe658339dfce40c41fa01"
+    },
+    {
+      "path": "reading-pack/03a-anatomy-of-proofs.md",
+      "bytes": 13425,
+      "sha256": "d8654fb75040c5060f34bf49ee7264746a4d89296935e6e4a203ca5defcdf624"
+    },
+    {
+      "path": "reading-pack/04-ai-and-research-roadmap.md",
+      "bytes": 16970,
+      "sha256": "e98504df597ed238c1758b9206e3acf153bae98270e3a461ecd8015701a536e7"
+    },
+    {
+      "path": "reading-pack/05-reflections-and-appendices.md",
+      "bytes": 13791,
+      "sha256": "1c40eefaa9291c14413ef2be408756646ab39cce2a50405c096ec12394d97b17"
+    },
+    {
+      "path": "reading-pack/README.md",
+      "bytes": 1798,
+      "sha256": "e619dd76f1d5231093e963f5446e1ea2292a3823d7410e4e4cada8cda9ce4511"
+    },
+    {
+      "path": "reading-pack/dissertation.md",
+      "bytes": 129300,
+      "sha256": "c5c6403ee22ba0139d6300b25a5a33e7d7827c257836ae7a7cbef459069a60f2"
+    },
+    {
+      "path": "reading-pack/references.bib",
+      "bytes": 8916,
+      "sha256": "453bd1c3f4ddf2d806ec7f197e23ce8de9ae1949e9c5d33d9a4832002b951bb9"
+    },
+    {
+      "path": "reading-pack/references.md",
+      "bytes": 5093,
+      "sha256": "7b508e760837e3c78ef76c9f93c06f6de476f617d98ce731ba063b700210a735"
+    },
+    {
+      "path": "reading-pack/references.ris",
+      "bytes": 11562,
+      "sha256": "8d7efb60c207a86c73bab4df4e8949d90582d5333fc544a13850e44b6f839915"
+    },
+    {
+      "path": "reading-pack/research-article.md",
+      "bytes": 24967,
+      "sha256": "4178c300af3f4904954f4c66b30da187e075d2e80237a821b06121375c544dff"
+    },
+    {
+      "path": "reading-pack/search-log.md",
+      "bytes": 3709,
+      "sha256": "895680e4a4cefe4b0d823488a9330354f409716d9d423926f435886e6832d493"
+    },
+    {
+      "path": "reading-pack/source-register.csv",
+      "bytes": 7115,
+      "sha256": "e52cfa63fd2801b949655dc7e96b4c0b259e2f50920571b74659e4cac71739d1"
+    },
+    {
+      "path": "reading-pack/source-relations.csv",
+      "bytes": 786,
+      "sha256": "6dd8cfc7096f7047a835dd7f0e5d398d01e146ebf5d6d60596ed47ff9778cd1e"
+    },
+    {
+      "path": "reading-pack/theorem-inventory.csv",
+      "bytes": 19043,
+      "sha256": "5fbadc6de3e8d394dc9eaf84a1a0fa6df9b670625a640acb58efd4c40a107a1d"
+    },
+    {
+      "path": "references-data.json",
+      "bytes": 19744,
+      "sha256": "33a358f1e68bff2532e97dbf1e0158639ff3e17a5a77e8b4404d4722fe175a7c"
+    }
+  ]
+}

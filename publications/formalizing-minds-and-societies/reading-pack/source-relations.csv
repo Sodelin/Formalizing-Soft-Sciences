@@ -1,0 +1,18 @@
+source,target,interpretive_relationship
+R18,R01,baseline explanation of source development
+R02,R01,verification principles for source audit
+R04,R01,theory-building rationale
+R05,R01,recovery-analysis extension
+R07,R01,psychological formalization precedent
+R08,R01,biological model-checking precedent
+R09,R01,Lean social-choice precedent
+R10,R01,cultural dynamics precedent
+R11,R01,symbolic-domain formalization precedent
+R12,R01,metacognition measurement extension
+R13,R01,normative-reasoning extension
+R14,R01,verified-data training precedent
+R15,R01,verification-feedback training precedent
+R16,R01,substantive causal-identification context
+R19,R01,appraisal-tool scope distinction
+R20,R01,reporting transparency reference
+R21,R01,study-design appraisal distinction

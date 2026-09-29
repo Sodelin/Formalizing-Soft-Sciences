@@ -1,0 +1,20 @@
+{
+  "article": {
+    "title": "From Social Explanations to Checkable Proofs: A 67-Theorem Framework for Scientific Reasoning",
+    "short": "CHECKABLE PROOFS IN SOCIAL SCIENCE",
+    "author": "Formalizing Soft Sciences Project",
+    "subtitle": "Research Article",
+    "date": "September 28, 2026",
+    "filename": "research-article",
+    "words": 3292
+  },
+  "dissertation": {
+    "title": "Formalizing Minds and Societies: 67 Lean Proofs and Their Scientific Uses",
+    "short": "FORMALIZING MINDS AND SOCIETIES",
+    "author": "Formalizing Soft Sciences Project",
+    "subtitle": "A Dissertation-Style Methodological Monograph",
+    "date": "September 28, 2026",
+    "filename": "dissertation",
+    "words": 18161
+  }
+}

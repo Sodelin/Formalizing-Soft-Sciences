@@ -1,0 +1,404 @@
+TY  - JOUR
+ID  - Axelrod1997
+AU  - Axelrod, R.
+TI  - The dissemination of culture: A model with local convergence and global polarization
+JO  - Journal of Conflict Resolution
+VL  - 41
+IS  - 2
+DO  - 10.1177/0022002797041002001
+UR  - https://doi.org/10.1177/0022002797041002001
+PY  - 1997
+SP  - 203
+EP  - 226
+KW  - culture
+KW  - agent-based-modeling
+KW  - access/abstract
+N1  - Publisher abstract and metadata. Used for the agent-based cultural-modeling precedent; simulations not reproduced.
+ER  - 
+
+TY  - UNPB
+ID  - BenzmullerEtAl2020
+AU  - Benzmüller, C.
+AU  - Parent, X.
+AU  - van der Torre, L.
+TI  - Designing normative theories for ethical and legal reasoning: LogiKEy framework, methodology, and tool support
+UR  - https://arxiv.org/abs/1903.10187v6
+PY  - 2020
+KW  - normative-reasoning
+KW  - formal-methods
+KW  - access/abstract
+N1  - Primary arXiv abstract and revision metadata. Uses the inspected 2020 version; the original preprint appeared in 2019. No implementation audit.
+ER  - 
+
+TY  - UNPB
+ID  - FinkelFougeaLeRoux2025
+AU  - Finkel, A.
+AU  - Fougea, G.
+AU  - Le Roux, S.
+TI  - An automata-based method to formalize psychological theories: The case study of Lazarus and Folkman's stress theory
+UR  - https://arxiv.org/abs/2501.05185
+PY  - 2025
+KW  - formal-methods
+KW  - psychology
+KW  - automata
+KW  - access/abstract
+N1  - Primary preprint abstract and metadata. Used to establish a formalization precedent; no reconstruction of the full method.
+ER  - 
+
+TY  - JOUR
+ID  - FlemingLau2014
+AU  - Fleming, S. M.
+AU  - Lau, H. C.
+TI  - How to measure metacognition
+JO  - Frontiers in Human Neuroscience
+VL  - 8
+DO  - 10.3389/fnhum.2014.00443
+UR  - https://doi.org/10.3389/fnhum.2014.00443
+PY  - 2014
+SP  - 443
+KW  - metacognition
+KW  - measurement
+KW  - access/selected-full-text
+N1  - Publisher full-text sections on sensitivity, bias, and measurement limitations. Used for construct distinctions; no new meta-d-prime fitting performed.
+ER  - 
+
+TY  - UNPB
+ID  - FormalizingSoftSciences2026
+AU  - Formalizing Soft Sciences Project
+TI  - How we formalized questions about society: A reader's guide to 67 Lean proofs, their theory, and their limits
+PY  - 2026
+KW  - baseline-book
+KW  - project-provenance
+N1  - Complete baseline book recovered from the project's supplied document archive; prose and source appendix inspected. The expanded monograph preserves its theorem identities and develops the exposition.
+ER  - 
+
+TY  - JOUR
+ID  - GuestMartin2021
+AU  - Guest, O.
+AU  - Martin, A. E.
+TI  - How computational modeling can force theory building in psychological science
+JO  - Perspectives on Psychological Science
+VL  - 16
+IS  - 4
+DO  - 10.1177/1745691620970585
+UR  - https://doi.org/10.1177/1745691620970585
+PY  - 2021
+SP  - 789
+EP  - 802
+KW  - mathematical-psychology
+KW  - theory-building
+KW  - access/abstract
+N1  - Publisher abstract and metadata; bibliographic details checked against PubMed and author institutional record. Full article not reviewed.
+ER  - 
+
+TY  - JOUR
+ID  - HeathEtAl2008
+AU  - Heath, J.
+AU  - Kwiatkowska, M.
+AU  - Norman, G.
+AU  - Parker, D.
+AU  - Tymchyshyn, O.
+TI  - Probabilistic model checking of complex biological pathways
+JO  - Theoretical Computer Science
+VL  - 391
+IS  - 3
+DO  - 10.1016/j.tcs.2007.11.013
+UR  - https://doi.org/10.1016/j.tcs.2007.11.013
+PY  - 2008
+SP  - 239
+EP  - 257
+KW  - biology
+KW  - model-checking
+KW  - access/selected-full-text
+N1  - Author-hosted PDF abstract, introduction, and selected reduction-method sections; journal metadata checked against institutional record. No numerical reproduction.
+ER  - 
+
+TY  - UNPB
+ID  - HollidayNormanPacuit2021
+AU  - Holliday, W. H.
+AU  - Norman, C.
+AU  - Pacuit, E.
+TI  - Voting theory in the Lean theorem prover
+UR  - https://arxiv.org/abs/2110.08453
+PY  - 2021
+KW  - social-choice
+KW  - Lean
+KW  - access/abstract
+N1  - Primary postprint abstract and metadata. The underlying published conference paper is identified by the authors; cited here via its inspected postprint. No independent rebuild.
+ER  - 
+
+TY  - ELEC
+ID  - HRAFND
+AU  - Human Relations Area Files
+TI  - Sampling for cross-cultural anthropological research
+UR  - https://hraf.yale.edu/advanced-ccc/8.%20Sampling%20for%20Cross-Cultural%20Anthropological%20Research/sampling.html
+KW  - ethnology
+KW  - cross-cultural-methods
+KW  - official-resource
+N1  - Official methods-page descriptions. Embedded lectures and slides were not fully reviewed; used as a methods gateway.
+ER  - 
+
+TY  - JOUR
+ID  - HuysMaiaFrank2016
+AU  - Huys, Q. J. M.
+AU  - Maia, T. V.
+AU  - Frank, M. J.
+TI  - Computational psychiatry as a bridge from neuroscience to clinical applications
+JO  - Nature Neuroscience
+VL  - 19
+DO  - 10.1038/nn.4238
+UR  - https://doi.org/10.1038/nn.4238
+PY  - 2016
+SP  - 404
+EP  - 413
+KW  - computational-psychiatry
+KW  - access/selected-full-text
+N1  - Abstract and selected full-text sections in PMC concerning data-driven and theory-driven approaches. Clinical effect estimates were not extracted for the synthesis.
+ER  - 
+
+TY  - ELEC
+ID  - LeanProjectND
+AU  - Lean Project
+TI  - Validating a Lean proof
+UR  - https://lean-lang.org/doc/reference/latest/ValidatingProofs/
+KW  - formal-methods
+KW  - verification
+KW  - official-documentation
+N1  - Official manual sections on kernel acceptance, axiom printing, statement meaning, and stronger verification methods. Current manual; project runtime is separately pinned to 4.19.0.
+ER  - 
+
+TY  - JOUR
+ID  - PageEtAl2021
+AU  - Page, M. J.
+AU  - McKenzie, J. E.
+AU  - Bossuyt, P. M.
+AU  - Boutron, I.
+AU  - Hoffmann, T. C.
+AU  - Mulrow, C. D.
+AU  - Shamseer, L.
+AU  - Tetzlaff, J. M.
+AU  - Akl, E. A.
+AU  - Brennan, S. E.
+AU  - Chou, R.
+AU  - Glanville, J.
+AU  - Grimshaw, J. M.
+AU  - Hróbjartsson, A.
+AU  - Lalu, M. M.
+AU  - Li, T.
+AU  - Loder, E. W.
+AU  - Mayo-Wilson, E.
+AU  - McDonald, S.
+AU  - McGuinness, L. A.
+AU  - Stewart, L. A.
+AU  - Thomas, J.
+AU  - Tricco, A. C.
+AU  - Welch, V. A.
+AU  - Whiting, P.
+AU  - Moher, D.
+TI  - The PRISMA 2020 statement: An updated guideline for reporting systematic reviews
+JO  - BMJ
+VL  - 372
+DO  - 10.1136/bmj.n71
+UR  - https://doi.org/10.1136/bmj.n71
+PY  - 2021
+SP  - n71
+KW  - research-methods
+KW  - critical-appraisal
+KW  - access/abstract
+N1  - Primary publisher abstract and bibliographic metadata, with PubMed author-list cross-check. Used for the stated purpose of the appraisal/reporting instrument.
+ER  - 
+
+TY  - JOUR
+ID  - ReadFischerLeaf2013
+AU  - Read, D.
+AU  - Fischer, M.
+AU  - Leaf, M.
+TI  - What are kinship terminologies, and why do we care? A computational approach to analyzing symbolic domains
+JO  - Social Science Computer Review
+VL  - 31
+IS  - 1
+DO  - 10.1177/0894439312455914
+UR  - https://doi.org/10.1177/0894439312455914
+PY  - 2013
+SP  - 16
+EP  - 44
+KW  - computational-anthropology
+KW  - kinship
+KW  - access/abstract
+N1  - Publisher abstract and bibliographic metadata; 2013 issue year confirmed, first online 2012. Full text restricted.
+ER  - 
+
+TY  - UNPB
+ID  - RenEtAl2025
+AU  - Ren, Z. Z.
+AU  - Shao, Z.
+AU  - Song, J.
+AU  - Xin, H.
+AU  - Wang, H.
+AU  - Zhao, W.
+AU  - Zhang, L.
+AU  - Fu, Z.
+AU  - Zhu, Q.
+AU  - Yang, D.
+AU  - Wu, Z. F.
+AU  - Gou, Z.
+AU  - Ma, S.
+AU  - Tang, H.
+AU  - Liu, Y.
+AU  - Gao, W.
+AU  - Guo, D.
+AU  - Ruan, C.
+TI  - DeepSeek-Prover-V2: Advancing formal mathematical reasoning via reinforcement learning for subgoal decomposition
+UR  - https://arxiv.org/abs/2504.21801
+PY  - 2025
+KW  - ai-training
+KW  - reinforcement-learning
+KW  - access/abstract
+N1  - Primary preprint abstract and metadata, including revised author list. Used for method precedent; no independent model evaluation.
+ER  - 
+
+TY  - JOUR
+ID  - ShaliziThomas2011
+AU  - Shalizi, C. R.
+AU  - Thomas, A. C.
+TI  - Homophily and contagion are generically confounded in observational social network studies
+JO  - Sociological Methods & Research
+VL  - 40
+DO  - 10.1177/0049124111404820
+UR  - https://doi.org/10.1177/0049124111404820
+PY  - 2011
+SP  - 211
+EP  - 239
+KW  - causal-inference
+KW  - social-networks
+KW  - access/abstract
+N1  - Primary arXiv abstract and journal metadata. The full paper's mathematics was not independently audited.
+ER  - 
+
+TY  - JOUR
+ID  - SheaEtAl2017
+AU  - Shea, B. J.
+AU  - Reeves, B. C.
+AU  - Wells, G.
+AU  - Thuku, M.
+AU  - Hamel, C.
+AU  - Moran, J.
+AU  - Moher, D.
+AU  - Tugwell, P.
+AU  - Welch, V.
+AU  - Kristjansson, E.
+AU  - Henry, D. A.
+TI  - AMSTAR 2: A critical appraisal tool for systematic reviews that include randomised or non-randomised studies of healthcare interventions, or both
+JO  - BMJ
+VL  - 358
+DO  - 10.1136/bmj.j4008
+UR  - https://doi.org/10.1136/bmj.j4008
+PY  - 2017
+SP  - j4008
+KW  - research-methods
+KW  - critical-appraisal
+KW  - access/abstract
+N1  - Primary publisher abstract and bibliographic metadata, with PubMed author-list cross-check. Used for the stated purpose of the appraisal/reporting instrument.
+ER  - 
+
+TY  - ELEC
+ID  - MathPsychND
+AU  - Society for Mathematical Psychology
+TI  - Society for Mathematical Psychology
+UR  - https://mathpsych.org/
+KW  - mathematical-psychology
+KW  - field-definition
+N1  - Official society description and journal/conference links.
+ER  - 
+
+TY  - COMP
+ID  - Sodelin2026
+AU  - Sodelin
+TI  - Formalizing Soft Sciences
+UR  - https://github.com/Sodelin/Formalizing-Soft-Sciences/tree/780f1b83aef15a9cf455566bab9df2a47d738074
+PY  - 2026
+KW  - formal-methods
+KW  - source-code
+KW  - verification
+N1  - Full source of seven theorem modules, complete audit, workflow, verification receipt, bibliography, and main-commit workflow status.
+ER  - 
+
+TY  - JOUR
+ID  - SterneEtAl2019
+AU  - Sterne, J. A. C.
+AU  - Savović, J.
+AU  - Page, M. J.
+AU  - Elbers, R. G.
+AU  - Blencowe, N. S.
+AU  - Boutron, I.
+AU  - Cates, C. J.
+AU  - Cheng, H.-Y.
+AU  - Corbett, M. S.
+AU  - Eldridge, S. M.
+AU  - Emberson, J. R.
+AU  - Hernán, M. A.
+AU  - Hopewell, S.
+AU  - Hróbjartsson, A.
+AU  - Junqueira, D. R.
+AU  - Jüni, P.
+AU  - Kirkham, J. J.
+AU  - Lasserson, T.
+AU  - Li, T.
+AU  - McAleenan, A.
+AU  - Reeves, B. C.
+AU  - Shepperd, S.
+AU  - Shrier, I.
+AU  - Stewart, L. A.
+AU  - Tilling, K.
+AU  - White, I. R.
+AU  - Whiting, P. F.
+AU  - Higgins, J. P. T.
+TI  - RoB 2: A revised tool for assessing risk of bias in randomised trials
+JO  - BMJ
+VL  - 366
+DO  - 10.1136/bmj.l4898
+UR  - https://doi.org/10.1136/bmj.l4898
+PY  - 2019
+SP  - l4898
+KW  - research-methods
+KW  - critical-appraisal
+KW  - access/abstract
+N1  - Primary publisher abstract and bibliographic metadata, with PubMed author-list cross-check. Used for the stated purpose of the appraisal/reporting instrument.
+ER  - 
+
+TY  - JOUR
+ID  - WilsonCollins2019
+AU  - Wilson, R. C.
+AU  - Collins, A. G. E.
+TI  - Ten simple rules for the computational modeling of behavioral data
+JO  - eLife
+VL  - 8
+DO  - 10.7554/eLife.49547
+UR  - https://doi.org/10.7554/eLife.49547
+PY  - 2019
+SP  - e49547
+KW  - computational-modeling
+KW  - model-recovery
+KW  - access/abstract
+N1  - Abstract, search-indexed captions and metadata. Direct publisher, PMC, and institutional full-text routes returned challenges; no full-text audit or reproduction.
+ER  - 
+
+TY  - UNPB
+ID  - XinEtAl2024
+AU  - Xin, H.
+AU  - Guo, D.
+AU  - Shao, Z.
+AU  - Ren, Z.
+AU  - Zhu, Q.
+AU  - Liu, B.
+AU  - Ruan, C.
+AU  - Li, W.
+AU  - Liang, X.
+TI  - DeepSeek-Prover: Advancing theorem proving in LLMs through large-scale synthetic data
+UR  - https://arxiv.org/abs/2405.14333
+PY  - 2024
+KW  - ai-training
+KW  - theorem-proving
+KW  - access/abstract
+N1  - Primary preprint abstract and metadata. Used to establish a verified-data training precedent; benchmark claims not independently reproduced.
+ER  - 

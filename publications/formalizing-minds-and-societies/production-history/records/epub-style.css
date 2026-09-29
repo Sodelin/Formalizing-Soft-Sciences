@@ -1,0 +1,17 @@
+
+body { font-family: serif; line-height: 1.75; color: #111; }
+p { margin: 0; text-indent: 1.5em; }
+h1,h2,h3 { font-size: 1em; line-height: 1.7; margin: 1.4em 0 0; font-weight: bold; }
+h1 { text-align: center; } h2 { text-align: left; } h3 { font-style: italic; }
+section#abstract p { text-indent: 0; }
+.references p, section#references p { padding-left: 1.5em; text-indent: -1.5em; }
+code { font-family: monospace; font-size: .85em; overflow-wrap: anywhere; }
+pre { white-space: pre-wrap; line-height: 1.35; }
+table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: .9em; line-height: 1.4; }
+th,td { vertical-align: top; text-align: left; padding: .4em; border: none; }
+thead { border-top: 1px solid; border-bottom: 1px solid; }
+tbody { border-bottom: 1px solid; }
+caption { text-align: left; font-style: italic; padding: .5em 0; }
+a { color: inherit; } nav a { text-decoration: none; }
+math { font-size: 1em; }
+.titlepage { text-align: center; } .titlepage p { text-indent: 0; }
