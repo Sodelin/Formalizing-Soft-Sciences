@@ -1,0 +1,31 @@
+{
+  "research-article": {
+    "pages": 17,
+    "bookmarks": 23,
+    "pdf_bytes": 491307,
+    "epub_bytes": 25467,
+    "epub_mathml_equations": 0,
+    "contact_sheets": [
+      "/workspace/scratch/123962c19da9/tmp/pdfs/research-article-contact-1.jpg",
+      "/workspace/scratch/123962c19da9/tmp/pdfs/research-article-contact-2.jpg"
+    ],
+    "geometry_issues": [],
+    "epub_link_issues": []
+  },
+  "dissertation": {
+    "pages": 77,
+    "bookmarks": 66,
+    "pdf_bytes": 817992,
+    "epub_bytes": 79644,
+    "epub_mathml_equations": 8,
+    "contact_sheets": [
+      "/workspace/scratch/123962c19da9/tmp/pdfs/dissertation-contact-1.jpg",
+      "/workspace/scratch/123962c19da9/tmp/pdfs/dissertation-contact-2.jpg",
+      "/workspace/scratch/123962c19da9/tmp/pdfs/dissertation-contact-3.jpg",
+      "/workspace/scratch/123962c19da9/tmp/pdfs/dissertation-contact-4.jpg",
+      "/workspace/scratch/123962c19da9/tmp/pdfs/dissertation-contact-5.jpg"
+    ],
+    "geometry_issues": [],
+    "epub_link_issues": []
+  }
+}

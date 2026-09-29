@@ -1,0 +1,14 @@
+{
+  "article": {
+    "pdf": "/workspace/scratch/123962c19da9/output/pdf/research-article.pdf",
+    "epub": "/workspace/scratch/123962c19da9/output/epub/research-article.epub",
+    "words": 3286,
+    "tables": 1
+  },
+  "dissertation": {
+    "pdf": "/workspace/scratch/123962c19da9/output/pdf/dissertation.pdf",
+    "epub": "/workspace/scratch/123962c19da9/output/epub/dissertation.epub",
+    "words": 18151,
+    "tables": 8
+  }
+}

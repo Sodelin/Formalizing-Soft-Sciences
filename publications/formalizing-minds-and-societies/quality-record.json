@@ -1,0 +1,21 @@
+{
+  "research-article": {
+    "pages": 17,
+    "bookmarks": 23,
+    "pdf_bytes": 491307,
+    "epub_bytes": 25467,
+    "epub_mathml_equations": 0,
+    "geometry_issues": [],
+    "epub_link_issues": []
+  },
+  "dissertation": {
+    "pages": 77,
+    "bookmarks": 66,
+    "pdf_bytes": 817992,
+    "epub_bytes": 79644,
+    "epub_mathml_equations": 8,
+    "geometry_issues": [],
+    "epub_link_issues": []
+  },
+  "visual_review": "Rendered page contact sheets and full-size representative pages inspected; embedded typefaces, tables, equations, references, and contents checked."
+}

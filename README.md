@@ -4,6 +4,8 @@ Research in psychology and the social sciences, with readable explanations, sour
 
 ## Read the current work
 
+**[Recovered article, monograph, and Astra handoff](ASTRA-HANDOFF.md)** — The 17-page article and 77-page dissertation-style monograph explain the 67-result foundations release. [Article PDF](publications/formalizing-minds-and-societies/output/pdf/research-article.pdf) · [article EPUB](publications/formalizing-minds-and-societies/output/epub/research-article.epub) · [monograph PDF](publications/formalizing-minds-and-societies/output/pdf/dissertation.pdf) · [monograph EPUB](publications/formalizing-minds-and-societies/output/epub/dissertation.epub) · [manuscripts, references, and production sources](publications/formalizing-minds-and-societies/README.md).
+
 **Publication update, 29 September:** the 67-declaration foundations package and the 18-declaration published-CBT fragment are now on main, for 85 declarations total. [Complete result-to-source map](PUBLICATION-COVERAGE-2026-09-29.md). The 67-count descriptions below describe Foundations I specifically.
 
 - **[Start here: Foundations I](projects/foundations/README.md)** — 51 new checked theorem declarations covering measurement, identification, causality, learning, collective action, and aggregation. [Research report](projects/foundations/report.md) · [every new theorem explained](projects/foundations/theorem-guide.md) · [research problem register](projects/foundations/open-problems.md).
