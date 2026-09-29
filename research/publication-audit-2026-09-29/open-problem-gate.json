@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-29",
+  "decision": "NO_QUALIFYING_MATCH_ESTABLISHED",
+  "purpose": "Determine whether existing results answer an explicitly stated external open problem before considering further proof work or discovery submissions.",
+  "existing_theorem_snapshot": "7835157627548823f03f29dd3987e55601807b55",
+  "existing_theorem_count": 85,
+  "new_mathematics_attempted": false,
+  "new_discovery_submissions": 0,
+  "researcher_emails_sent": false,
+  "current_open_status_census_completed": false,
+  "scope": "Bounded source-first screening. A mathematical mismatch suffices to reject a candidate before undertaking a full subsequent-literature and current-status audit. No accepted research target is claimed.",
+  "queries": [
+    "\"open problems\" \"sociology\" mathematical identification",
+    "\"open questions\" \"measurement invariance\" identification",
+    "\"open problems\" \"collective action\" cooperation network",
+    "\"open questions\" \"active inference\" psychotherapy model",
+    "\"open problems\" \"causal inference\" \"measurement error\" identification",
+    "\"open problems\" \"network\" \"cooperation\" \"survey\" mathematics",
+    "\"open questions\" \"Simulating cognitive behavioral therapy\"",
+    "\"Mathematical Sociology: Models, Structures, and Open Problems\" author",
+    "\"Hypergraphs and simplicial complexes in focus\" arxiv",
+    "\"A survey on the analysis and control of evolutionary matrix games\" pdf open problems",
+    "site:mdpi.com/2227-7390/14/18/3363 \"ordinal power partition\" \"3.\"",
+    "site:mdpi.com/2227-7390/14/18/3363 \"Published:\" \"Volchenkov\""
+  ],
+  "sources": [
+    {
+      "id": "SP1",
+      "author": "Dimitri Volchenkov",
+      "title": "Mathematical Sociology: Models, Structures, and Open Problems",
+      "year": 2026,
+      "url": "https://www.mdpi.com/2227-7390/14/18/3363",
+      "doi": "10.3390/math14183363",
+      "locator": "Section 3.4, concluding open-problem paragraph",
+      "access": "Primary publisher indexed full-text excerpt, including surrounding definitions and the complete question. Direct HTML, DOI redirect and PDF retrieval failed.",
+      "metadata_crosscheck": "RePEc publisher-supplied record identifies author, volume, issue, article number and 76-page length; mathematical claims rely on publisher excerpts.",
+      "explicit_external_problem_verified": true,
+      "current_unsolved_status_independently_verified": false,
+      "existing_candidate": "SocialScience.CollectiveAction.two_person_budget_iff and participation/solidarity results",
+      "match": "REJECTED",
+      "reason": "The transfer feasibility theorem has no network bargaining or power-ranking structure and proves no agreement classification or separating counterexample for that structure."
+    },
+    {
+      "id": "SP2",
+      "authors": ["Carlos Cinelli", "Avi Feller", "Guido Imbens", "Edward Kennedy", "Sara Magliacane", "Jose Zubizarreta"],
+      "title": "Challenges in Statistics: A Dozen Challenges in Causality and Causal Inference",
+      "version": "arXiv:2508.17099v1, 23 August 2025",
+      "url": "https://arxiv.org/html/2508.17099v1",
+      "locator": "Section 3.6.3: Other types of biases; Sharpness results. Section 3.9 inspected for automation context.",
+      "access": "Selected primary full-text background, motivation and challenge passages read.",
+      "explicit_external_problem_verified": true,
+      "current_unsolved_status_independently_verified": false,
+      "existing_candidates": ["SocialScience.Measurement.bounded_bias_interval", "SocialScience.Measurement.difference_exceeding_bias_identifies_order", "Boolean causal observation/effect collision witnesses"],
+      "match": "REJECTED",
+      "reason": "Assumed additive numerical bias bounds and elementary causal collisions supply no joint causal sensitivity model, observed-data identified set or sharpness theorem for the stated target."
+    },
+    {
+      "id": "SP3",
+      "authors": "Aida Abiad and coauthors",
+      "title": "Hypergraphs and simplicial complexes in focus: a roadmap for future research in higher-order interactions",
+      "published": "1 April 2026",
+      "doi": "10.1088/2632-072X/ae3c4e",
+      "url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/7ade7c44-7d22-4a7c-bfc7-29310947cdd7/content",
+      "locator": "Section 6.1 final paragraph; PDF page 25 of 35",
+      "access": "Published PDF; identity, local section and decisive problem passage checked.",
+      "explicit_external_problem_verified": true,
+      "current_unsolved_status_independently_verified": false,
+      "existing_candidates": ["Solidarity path and connectedness declarations", "Generic probe-identification lemmas", "Boolean causal witnesses"],
+      "match": "REJECTED",
+      "reason": "The existing corpus has no specified simple/complex contagion laws or corresponding empirical observation model, and establishes neither a discriminator nor an impossibility result for those classes."
+    }
+  ],
+  "other_screened_leads": [
+    {"title": "Mathematical Social Dynamics: Traditional and New Areas of Research", "url": "https://www.mdpi.com/2673-9909/6/6/90", "disposition": "Indexed broad methodology/collaboration challenges did not establish a precise target answered by this corpus; direct retrieval failed."},
+    {"title": "A survey on the analysis and control of evolutionary matrix games", "doi": "10.1016/j.arcontrol.2018.04.010", "disposition": "Abstract/section preview indicates open dynamics/control problems. No exact matched problem or present-day open status established; not promoted into a target."},
+    {"title": "Active-inference and measurement search results", "disposition": "Broad clinical validation, measurement and future-work themes were not accepted as precise mathematical targets. Secondary summaries were used only for discovery, not as claim evidence."}
+  ],
+  "stopping_rule": "Stop this pass after comparing concrete external requests against existing statements and finding no substantive matching answer. Do not create model extensions to manufacture a fit.",
+  "remaining_uncertainty": "The bounded search does not establish that no possible qualifying use exists elsewhere. It establishes that this pass selected none."
+}

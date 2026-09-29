@@ -2,6 +2,8 @@
 
 **The contribution is an inspectable chain from a scientific question to explicit assumptions, a checked mathematical consequence, and a precise source connection.** This package accounts for every one of the 85 theorem declarations currently preserved in the project: 16 solidarity results, 51 foundations results, and 18 results about a published computational model. It makes the strongest contributions easy to find while retaining the supporting proofs that make them trustworthy.
 
+**Current discovery-selection decision:** the [source-first open-problem screen](OPEN-PROBLEM-GATE.md) found three actual externally posed targets but no qualifying match to the existing proofs. Further model extensions are not selected for this project until an externally stated target and a substantive mathematical correspondence have been established. Preservation and declaration coverage do not themselves qualify a discovery submission.
+
 The central question is practical: when do observations distinguish competing explanations, and what extra information restores that distinction? The package answers exact versions of this question across measurement, causal inference, learning and aggregation, alongside models of network reach and cooperation.
 
 ## Results worth leading with
@@ -34,7 +36,7 @@ Suggested package title: **What observations justify: 85 checked declarations co
 
 Suggested description: *This reproducible Lean development makes inferential assumptions explicit and connects every declaration to a readable explanation. It checks exact conditions for identification, bias-sensitive ordering, evidence consistency, task participation and aggregation, then verifies an observation fragment against a published computational model's source tables. Complete theorem inventories and source receipts allow reviewers to inspect both the deductions and their interpretation.*
 
-This is a suitable public formalization, reproducibility and educational dossier. VibeMathed's current catalog rules distinguish new answers to open questions from formalizations of established results. The package has been shared as supporting context; it is not presented as 85 new discovery submissions. A future catalog entry would need a qualifying additional mathematical advance and its source comparison. This routing preserves the work and directs attention to its demonstrated value.
+This is a preserved formalization, reproducibility and educational dossier. VibeMathed's current catalog rules distinguish new answers to open questions from formalizations of established results. The package was shared as supporting context; it is not presented as 85 new discovery submissions. Under the current project selection rule, no further discovery submission or model extension is selected until an externally stated problem, its current status and a substantive contribution toward that target have been established. The completed corpus remains preserved while that selection gate is unmet.
 
 ## Verification and preservation
 
