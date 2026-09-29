@@ -2,6 +2,8 @@
 
 As of 29 September 2026, this repository preserves **85 checked theorem declarations**: 16 in the original solidarity module, 51 in Foundations I, and 18 in the published-CBT fragment. Supporting lemmas and source bridges are included in those counts. The 67-item package was already on main; the clinical checkpoint was integrated through PR 2 at `4501e21c6b887e376c5adf145aff3f78afea9dbd`.
 
+The subsequent [theorem-by-theorem audit](research/publication-audit-2026-09-29/THEOREM-BY-THEOREM.md) accounts for all 85 with immutable source links, exact signatures, individual contribution notes, and a [fresh source/prior-work comparison](research/publication-audit-2026-09-29/SOURCES.md). The [publication judgment](research/publication-audit-2026-09-29/README.md) explains the strongest justified presentation.
+
 ## What the work accomplishes
 
 The connected theme is inference: what follows from a representation, which observations distinguish competing explanations, and which conclusions need additional assumptions. The foundations give explicit, checked examples across six areas. The clinical extension grounds that approach in tables from an existing published computational model.

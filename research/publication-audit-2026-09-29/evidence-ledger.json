@@ -1,0 +1,216 @@
+{
+  "audit_date": "2026-09-29",
+  "mode": "bounded rapid evidence update",
+  "scope": "85 declarations at immutable snapshot7835157; no exhaustive novelty search",
+  "reviewer": "Codex root, AI-assisted",
+  "queries": [
+    {
+      "query": "\"Simulating the computational mechanisms\" \"avoidance\"",
+      "provider": "web search",
+      "date": "2026-09-29",
+      "language": "English",
+      "filters": "none",
+      "screening": "Returned primary source hits; bounded to directly relevant comparisons"
+    },
+    {
+      "query": "\"Ten simple rules\" \"model recovery\" Collins Wilson",
+      "provider": "web search",
+      "date": "2026-09-29",
+      "language": "English",
+      "filters": "none",
+      "screening": "Returned primary source hits; bounded to directly relevant comparisons"
+    },
+    {
+      "query": "\"Measurement Invariance Conventions\" \"intercepts\"",
+      "provider": "web search",
+      "date": "2026-09-29",
+      "language": "English",
+      "filters": "none",
+      "screening": "Returned primary source hits; bounded to directly relevant comparisons"
+    },
+    {
+      "query": "\"Homophily and Contagion\" \"identifiability\" Shalizi Thomas",
+      "provider": "web search",
+      "date": "2026-09-29",
+      "language": "English",
+      "filters": "none",
+      "screening": "Returned primary source hits; bounded to directly relevant comparisons"
+    },
+    {
+      "query": "site.cs.cmu.edu/~tom \"version space\" \"consistent\"",
+      "provider": "web search",
+      "date": "2026-09-29",
+      "language": "English",
+      "filters": "none",
+      "screening": "Returned primary source hits; bounded to directly relevant comparisons"
+    },
+    {
+      "query": "site.isa-afp.org \"Arrow\" \"Nipkow\"",
+      "provider": "web search",
+      "date": "2026-09-29",
+      "language": "English",
+      "filters": "none",
+      "screening": "Returned primary source hits; bounded to directly relevant comparisons"
+    },
+    {
+      "query": "\"The Interpretation of Interaction in Contingency Tables\" Simpson 1951",
+      "provider": "web search",
+      "date": "2026-09-29",
+      "language": "English",
+      "filters": "none",
+      "screening": "Returned primary source hits; bounded to directly relevant comparisons"
+    }
+  ],
+  "fulltext_retrievals": [
+    {
+      "id": "cbt",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8115057/fullTextXML",
+      "accessed_utc": "2026-09-29T21:59:05.300812+00:00",
+      "status": 200,
+      "sha256": "7dc75e7dbd619bda5dbe98aa2824322a7e021c71fb4b856bf1dfe752aaa6126a",
+      "paragraphs": 143,
+      "bytes": 176726
+    },
+    {
+      "id": "measurement",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5145197/fullTextXML",
+      "accessed_utc": "2026-09-29T21:59:09.572134+00:00",
+      "error": "HTTP Error 500: "
+    },
+    {
+      "id": "wilson-collins",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6879303/fullTextXML",
+      "accessed_utc": "2026-09-29T21:59:12.033969+00:00",
+      "status": 200,
+      "sha256": "dad14d83e67c77ec898e30b5c12a49418ddf0ce015f018914e9bc171cd68b767",
+      "paragraphs": 293,
+      "bytes": 300202
+    }
+  ],
+  "other_access_failures": [
+    {
+      "url": "https://www.nature.com/articles/s41598-021-89047-0",
+      "outcome": "identity-provider redirect"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8115057/",
+      "outcome": "browser challenge"
+    },
+    {
+      "url": "https://elifesciences.org/articles/49547",
+      "outcome": "restricted URL in web tool"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/45873-f98/classnotes/ch2.pdf",
+      "outcome": "restricted URL in web tool; older reading receipt retained"
+    }
+  ],
+  "claim_source_relations": [
+    {
+      "id": "SS01",
+      "family": "Identification",
+      "source": "Wilson and Collins 2019",
+      "url": "https://doi.org/10.7554/eLife.49547",
+      "locator": "Parameter recovery and model recovery sections",
+      "access_depth": "Selected journal XML sections and author manuscript",
+      "relation": "Motivation and established methodological context; no external open-question closure."
+    },
+    {
+      "id": "SS02",
+      "family": "Measurement",
+      "source": "Putnick and Bornstein 2016",
+      "url": "https://doi.org/10.1016/j.dr.2016.06.004",
+      "locator": "Scalar invariance",
+      "access_depth": "Publisher and indexed full-text excerpt",
+      "relation": "Common intercept is an established comparability issue; integer sensitivity lemmas are a specified algebraic example."
+    },
+    {
+      "id": "SS03",
+      "family": "Causality",
+      "source": "Shalizi and Thomas 2011",
+      "url": "https://arxiv.org/html/1004.4704",
+      "locator": "Sections 1-2",
+      "access_depth": "Selected full text",
+      "relation": "Richer network predecessor; repository binary example does not resolve the network problem."
+    },
+    {
+      "id": "SS04",
+      "family": "Learning",
+      "source": "Mitchell 1997 / author-hosted dissertation",
+      "url": "https://www.cs.cmu.edu/afs/cs/usr/mitchell/ftp/pubs/VERSION_SPACES_MitchellPhDthesis.pdf",
+      "locator": "Version-space framework",
+      "access_depth": "Earlier textbook slide inspection retained; fresh dissertation extraction unusable",
+      "relation": "Established exact-consistency content; no fresh dissertation theorem extraction."
+    },
+    {
+      "id": "SS05",
+      "family": "Learning",
+      "source": "Cslib VersionSpace module",
+      "url": "https://github.com/leanprover/cslib/blob/d9be64196bf145edd019f1ccfeaee0c11166ba6b/Cslib/MachineLearning/PACLearning/VersionSpace.lean",
+      "locator": "versionSpace_empty_sample, versionSpace_reindex, versionSpace_antitone",
+      "access_depth": "Official API declarations and immutable source page",
+      "relation": "Related formalized content observed 2026-09-29; no independent rebuild or first-publication chronology audit."
+    },
+    {
+      "id": "SS06",
+      "family": "Aggregation",
+      "source": "Simpson 1951",
+      "url": "https://doi.org/10.1111/j.2517-6161.1951.tb00088.x",
+      "locator": "Sections 8-11, printed pp240-241",
+      "access_depth": "Publisher record and university-hosted full-text scan",
+      "relation": "Historical aggregation precedent; our exact strict-reversal counts are a distinct synthetic example of established behavior."
+    },
+    {
+      "id": "SS07",
+      "family": "Clinical observation",
+      "source": "Smith, Moutoussis and Bilek 2021",
+      "url": "https://doi.org/10.1038/s41598-021-89047-0",
+      "locator": "Figure2; XML Sec6 paragraph2; Sec11 paragraphs2,9,12-13",
+      "access_depth": "Selected full-text model/results/discussion passages via Europe PMC",
+      "relation": "Already discussed avoidance mechanism; exact selected-fragment classifier theorem is formal verification, not closure of their future-model agenda."
+    },
+    {
+      "id": "SS08",
+      "family": "Clinical integrity",
+      "source": "Pinned CBT_model.m",
+      "url": "https://github.com/rssmith33/Simulating_Cognitive_Behavioral_Therapy/blob/82a0a3d75b0bdc08d2b78cdf2201d7aa626c27a3/CBT_model.m",
+      "locator": "Ten matrices and six assignments named by clinical/scripts/source_bridge.py",
+      "access_depth": "Pinned source and extractor/Lean bridge inspected",
+      "relation": "Bounded transcription/scaling correspondence, not complete MATLAB/SPM semantics."
+    },
+    {
+      "id": "SS09",
+      "family": "Formalization precedent",
+      "source": "Nipkow 2008/2009",
+      "url": "https://isa-afp.org/entries/ArrowImpossibilityGS.html",
+      "locator": "Entry abstract",
+      "access_depth": "Official entry/search indexed record",
+      "relation": "Prior proof-assistant social-choice formalization; not an exact predecessor to every repository lemma."
+    },
+    {
+      "id": "SS10",
+      "family": "Formalization precedent",
+      "source": "Holliday, Norman and Pacuit 2021",
+      "url": "https://arxiv.org/abs/2110.08453",
+      "locator": "Abstract",
+      "access_depth": "Primary preprint record",
+      "relation": "Prior Lean voting-theory framework; not independently rebuilt."
+    },
+    {
+      "id": "SS11",
+      "family": "Solidarity and collective action",
+      "source": "Project specifications and definitions",
+      "url": "https://github.com/Sodelin/Formalizing-Soft-Sciences/blob/7835157627548823f03f29dd3987e55601807b55/Solidarity.lean",
+      "locator": "All sixteen statements; CollectiveAction definitions and ten statements",
+      "access_depth": "Every declaration and proof read",
+      "relation": "Elementary graph/order/set/linear feasibility reasoning; no externally posed open theorem identified."
+    }
+  ],
+  "limits": [
+    "No complete citation-network or priority search",
+    "No independent rebuild of external Lean projects",
+    "No empirical or clinical efficacy assessment",
+    "No externally posed open-problem closure established",
+    "Cslib commit author date observed as 2026-09-04; first public availability not audited"
+  ]
+}

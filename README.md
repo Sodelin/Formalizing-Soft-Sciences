@@ -4,7 +4,7 @@ Research in psychology and the social sciences, with readable explanations, sour
 
 ## Read the current work
 
-**Publication update, 29 September:** the 67-declaration foundations package and the 18-declaration published-CBT fragment are now on main, for 85 declarations total. [Complete result-to-source map](PUBLICATION-COVERAGE-2026-09-29.md). The 67-count descriptions below describe Foundations I specifically.
+**Publication update, 29 September:** all 85 declarations are on main and individually accounted for. [Every theorem and its contribution](research/publication-audit-2026-09-29/THEOREM-BY-THEOREM.md) · [publication judgment and exact source comparisons](research/publication-audit-2026-09-29/README.md) · [complete result-to-source map](PUBLICATION-COVERAGE-2026-09-29.md).
 
 - **[Start here: Foundations I](projects/foundations/README.md)** — 51 new checked theorem declarations covering measurement, identification, causality, learning, collective action, and aggregation. [Research report](projects/foundations/report.md) · [every new theorem explained](projects/foundations/theorem-guide.md) · [research problem register](projects/foundations/open-problems.md).
 - **[What Lean proves: the original solidarity guide](projects/solidarity-at-scale/formal/what-lean-proves.md)** — The initial 16 proofs explained, the psychology section, established prior work, and the original Durkheim model proposal. [Guide PDF](projects/solidarity-at-scale/outputs/what-lean-proves.pdf) · [editable DOCX](projects/solidarity-at-scale/outputs/what-lean-proves.docx). These downloads document the initial development; the new foundations guide is linked above.
@@ -17,7 +17,7 @@ Research in psychology and the social sciences, with readable explanations, sour
 
 ## What is established so far
 
-The project has **67 theorem declarations checked with Lean 4.19.0: 16 preserved and 51 new**. This count includes supporting lemmas and concrete examples. The original module distinguishes network reach, memberships, and incentives. The six new modules establish restricted results about measurement bias, observational ambiguity, discriminating evidence, complementary capabilities, acceptable allocations, and aggregation reversals. See the [foundations verification receipt](projects/foundations/verification.md).
+The project has **85 theorem declarations checked with Lean 4.19.0: 16 solidarity, 51 foundations and 18 published-model fragment declarations**. Supporting lemmas, examples and source bridges are included. The original module distinguishes network reach, memberships and incentives. The foundations modules check measurement bias, observational ambiguity, discriminating evidence, complementary capabilities, acceptable allocations and aggregation reversals. The clinical extension verifies observation and weight properties against pinned source tables. See the [foundations receipt](projects/foundations/verification.md) and [integrated source map](PUBLICATION-COVERAGE-2026-09-29.md).
 
 These are elementary formal results and useful counterexamples, not new empirical laws or solutions to field-level open problems. The [research problem register](projects/foundations/open-problems.md) identifies precise next tasks and the evidence needed before claiming a broader scientific advance.
 
@@ -25,10 +25,12 @@ The research documents are an initial targeted synthesis, not a completed system
 
 ## Preservation and publication status
 
-This repository is the requested home for work extending beyond psychology. The earlier research package is preserved and the foundations expansion adds separate modules. The larger pre-existing psychology corpus described by Nolan has **not yet been located or imported**; these new developments must not be presented as its replacement. Existing source repositories and branches remain intact.
+This repository is the requested home for work extending beyond psychology. The remembered 67-item package has been located and preserved here; the clinical extension adds 18 declarations. The earlier 16-declaration psychology repository contains the same solidarity component and is not an additional set of results. A distinct older corpus mentioned in historical notes remains an unresolved recovery question. Existing source repositories, branches and dated reports remain intact.
 
 The published package and plain-language guide are on main for reading and discussion. The [publication record](projects/solidarity-at-scale/publication/README.md) distinguishes public files, the prepared share note, and future review or archival steps. GitHub availability is not journal publication or peer review.
 
 ## Reproduce the formal checks
 
-With the pinned toolchain installed, run `lake build` and `lake env lean SocialScience/Audit.lean` from this repository's root. The audit covers all 67 declarations. Run `python3 scripts/check_foundations.py` for source hashes, theorem-to-explanation coverage, and documentation checks. The [original verification receipt](projects/solidarity-at-scale/formal/verification-report.md) remains available for the initial package.
+With the pinned toolchain installed, run `lake build` and `lake env lean SocialScience/Audit.lean` from this repository's root for the 67 solidarity/foundations declarations. In `clinical`, run `lake build` and `lake env lean ClinicalModels/Audit.lean` for the other 18. The [workflow](.github/workflows/lean.yml) also retrieves and checks the pinned MATLAB source tables.
+
+Run `python3 scripts/check_foundations.py` for preserved source hashes and explanations, and `python3 research/publication-audit-2026-09-29/build_inventory.py --check` for complete 85-declaration audit coverage. These checks verify different parts of the evidence chain. The [original verification receipt](projects/solidarity-at-scale/formal/verification-report.md) remains available for the initial package.
