@@ -4,14 +4,16 @@ Research in psychology and the social sciences, with readable explanations, sour
 
 ## Read the current work
 
-- **[Start here: Foundations I](projects/foundations/README.md)** — 51 new checked theorem declarations covering measurement, identification, causality, learning, collective action, and aggregation. [Research report](projects/foundations/report.md) · [every new theorem explained](projects/foundations/theorem-guide.md) · [research problem register](projects/foundations/open-problems.md).
-- **[What Lean proves: the original solidarity guide](projects/solidarity-at-scale/formal/what-lean-proves.md)** — The initial 16 proofs explained, the psychology section, established prior work, and the original Durkheim model proposal. [Guide PDF](projects/solidarity-at-scale/outputs/what-lean-proves.pdf) · [editable DOCX](projects/solidarity-at-scale/outputs/what-lean-proves.docx). These downloads document the initial development; the new foundations guide is linked above.
-- **[Solidarity at scale: paper](projects/solidarity-at-scale/paper/manuscript.md)** — How can cooperation extend beyond people we know? Identity, cultural signs, material interests, institutions, and political coalitions.
-- **[Evidence and political decision report](projects/solidarity-at-scale/report/research-report.md)** — Start with its executive brief. The recommendation is conditional on equal rights, non-domination, and broadly shared gains.
-- **[Paper PDF](projects/solidarity-at-scale/outputs/solidarity-at-scale-paper.pdf)** and **[report PDF](projects/solidarity-at-scale/outputs/solidarity-at-scale-report.pdf)** — Readable downloads with references; editable DOCX versions are in the same folder.
-- **[Original Lean specification](projects/solidarity-at-scale/formal/specification.md)** — What the original 16 theorems establish and where their assumptions stop.
-- **[Psychology section and import status](psychology/README.md)** — Preserving the prior mathematics-of-psychology project is an explicit requirement.
-- **[Full project index](projects/solidarity-at-scale/README.md)** — 35 sources, 24 typed claims, historical comparisons, proposed studies, bibliography, and staged notes.
+**Publication update, 29 September:** the 67-declaration foundations package and the 18-declaration published-CBT fragment are now on main, for 85 declarations total. [Complete result-to-source map](PUBLICATION-COVERAGE-2026-09-29.md). The 67-count descriptions below describe Foundations I specifically.
+
+- **[Start here: Foundations I](projects/foundations/README.md)** â€” 51 new checked theorem declarations covering measurement, identification, causality, learning, collective action, and aggregation. [Research report](projects/foundations/report.md) Â· [every new theorem explained](projects/foundations/theorem-guide.md) Â· [research problem register](projects/foundations/open-problems.md).
+- **[What Lean proves: the original solidarity guide](projects/solidarity-at-scale/formal/what-lean-proves.md)** â€” The initial 16 proofs explained, the psychology section, established prior work, and the original Durkheim model proposal. [Guide PDF](projects/solidarity-at-scale/outputs/what-lean-proves.pdf) Â· [editable DOCX](projects/solidarity-at-scale/outputs/what-lean-proves.docx). These downloads document the initial development; the new foundations guide is linked above.
+- **[Solidarity at scale: paper](projects/solidarity-at-scale/paper/manuscript.md)** â€” How can cooperation extend beyond people we know? Identity, cultural signs, material interests, institutions, and political coalitions.
+- **[Evidence and political decision report](projects/solidarity-at-scale/report/research-report.md)** â€” Start with its executive brief. The recommendation is conditional on equal rights, non-domination, and broadly shared gains.
+- **[Paper PDF](projects/solidarity-at-scale/outputs/solidarity-at-scale-paper.pdf)** and **[report PDF](projects/solidarity-at-scale/outputs/solidarity-at-scale-report.pdf)** â€” Readable downloads with references; editable DOCX versions are in the same folder.
+- **[Original Lean specification](projects/solidarity-at-scale/formal/specification.md)** â€” What the original 16 theorems establish and where their assumptions stop.
+- **[Psychology section and import status](psychology/README.md)** â€” Preserving the prior mathematics-of-psychology project is an explicit requirement.
+- **[Full project index](projects/solidarity-at-scale/README.md)** â€” 35 sources, 24 typed claims, historical comparisons, proposed studies, bibliography, and staged notes.
 
 ## What is established so far
 

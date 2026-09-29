@@ -1,0 +1,3 @@
+*.lean text eol=lf
+lean-toolchain text eol=lf
+lakefile.toml text eol=lf

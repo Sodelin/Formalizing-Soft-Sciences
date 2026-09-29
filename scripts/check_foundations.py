@@ -23,7 +23,7 @@ for file in lean_files:
         for name in re.findall(r'^theorem\s+(\w+)', text, re.M):
             full = namespace[1] + '.' + name
             assert full not in declarations, full
-            declarations[full] = str(file.relative_to(ROOT))
+            declarations[full] = file.relative_to(ROOT).as_posix()
 
 inventory = rows('theorem-inventory.csv')
 assert len(inventory) == 51
@@ -44,7 +44,7 @@ assert set(audited) == set(declarations)
 
 manifest = json.loads((P / 'verification-manifest.json').read_text())
 assert manifest['checked_theorem_count'] == len(declarations)
-expected_sources = {str(f.relative_to(ROOT)) for f in lean_files}
+expected_sources = {f.relative_to(ROOT).as_posix() for f in lean_files}
 expected_sources |= {'lean-toolchain', 'lakefile.toml'}
 assert set(manifest['files']) == expected_sources
 for name, expected in manifest['files'].items():
