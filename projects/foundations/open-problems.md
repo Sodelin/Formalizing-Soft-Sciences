@@ -17,6 +17,8 @@ These are useful small answers. Calling them new solutions to long-standing open
 
 ## B. Concrete next formal developments
 
+**30 September reconciliation:** the remembered 67-item package is recovered as 16 solidarity plus 51 foundations declarations; the clinical extension brings the integrated corpus to 85. D01 below now concerns only the distinct older corpus whose original source remains unresolved. This dated clarification preserves the earlier register; see the [current psychology status](../../psychology/README.md) and [source map](../../PUBLICATION-COVERAGE-2026-09-29.md). Source-backed cross-project targets are indexed in the [omnibus catalog](https://github.com/Sodelin/Cross-Scale-Causal-Formalization/blob/main/research/open-problem-catalogs-2026-09-30/README.md).
+
 | ID / priority | Proposed task | Dependencies and completion criterion | Novelty status |
 | --- | --- | --- | --- |
 | D01 / first | Recover the earlier psychology corpus and map its constructs and theorems. | Original repository, archive, or git bundle; preserve hashes and provenance, reproduce its original build, then identify reusable modules. | Recovery and integration; not a new theorem. |

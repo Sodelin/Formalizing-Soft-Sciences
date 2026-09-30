@@ -33,4 +33,4 @@ lake env lean SocialScience/Audit.lean
 python3 scripts/check_foundations.py
 ```
 
-The original [Solidarity at Scale paper and report](../solidarity-at-scale/README.md) remain available. Its guide explains the original 16 theorems; this guide covers the 51 additions. The larger earlier mathematics-of-psychology corpus still awaits its original source location. This expansion does not replace or claim to import it.
+The original [Solidarity at Scale paper and report](../solidarity-at-scale/README.md) remain available. Its guide explains the original 16 theorems; this guide covers the 51 additions. **30 September status clarification:** the remembered 67-item package is recovered here, and the integrated corpus is now 85 with the clinical extension. A distinct older mathematics-of-psychology corpus still awaits its original source location; this expansion does not claim to import that distinct work. See the [current psychology reconciliation](../../psychology/README.md).

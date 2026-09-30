@@ -2,6 +2,20 @@
 
 Research in psychology and the social sciences, with readable explanations, source evidence, and precisely scoped Lean proofs.
 
+The [bio–psycho–social omnibus catalog](https://github.com/Sodelin/Cross-Scale-Causal-Formalization/blob/main/research/open-problem-catalogs-2026-09-30/README.md) owns the cross-project question map. Read [exact targets and their significance](https://github.com/Sodelin/Cross-Scale-Causal-Formalization/blob/main/research/open-problem-catalogs-2026-09-30/EXPLANATION-AND-PRIORITIES.md) before starting a new proof project.
+
+## Repository roles
+
+| Home | Purpose |
+| --- | --- |
+| [Cross-Scale omnibus](https://github.com/Sodelin/Cross-Scale-Causal-Formalization) | Canonical research questions, theory and cross-project interfaces |
+| [Formalizing Soft Sciences](https://github.com/Sodelin/Formalizing-Soft-Sciences) | Active social, psychological and clinical implementations, source maps and verification |
+| [Mathematics of Psychology](https://github.com/Sodelin/Mathematics-of-Psychology-Formalized) | Preserved early checkpoint; its 16 solidarity declarations are included in Soft Sciences |
+| [Samuel Alexander research](https://github.com/Sodelin/Work-on-Samuel-Alexander-Research-) | Existing evolutionary-network, inheritance and pedigree implementations |
+| [Research Commons](https://github.com/Sodelin/Research-Commons/blob/main/START-HERE.md) | Attributed discussion, captures and handoffs linking authoritative project work |
+
+Biopsychology can have overlapping domain tags. Keep one authoritative question record and link its implementation, evidence and verification rather than duplicate competing status records. Existing proof paths and historical snapshots remain in place.
+
 ## New Wave research workflow
 
 [New Wave: discover the right target, then execute it](NEW-WAVE.md) separates target discovery and system-scope challenges from execution and verification. [NANUQ experiment dossier](https://github.com/Sodelin/Work-on-Samuel-Alexander-Research-/blob/main/research/new-wave/NANUQ-EXPERIMENT-DOSSIER.md) reconstructs the evidence behind this revision. [Cross-project retrospective](research/new-wave-2026-09-30/RETROSPECTIVE.md) · [CBT candidate assessment: on hold](research/new-wave-2026-09-30/STARTER-ASSESSMENT.md) · [Task contract](research/new-wave-2026-09-30/task-contract.template.json).

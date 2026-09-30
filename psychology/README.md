@@ -1,27 +1,29 @@
 # Psychology and prior-work preservation
 
-Nolan requested a substantial psychology section and import of the existing mathematics/psychology Lean corpus. That work must be carried forward with its original proofs, documents, toolchain, and provenance. A new elementary sociology example is not a substitute.
+**Status reconciliation: 30 September 2026 UTC.** Active psychological/clinical implementation lives in this repository. The [Cross-Scale omnibus catalog](https://github.com/Sodelin/Cross-Scale-Causal-Formalization/blob/main/research/open-problem-catalogs-2026-09-30/README.md) owns linked cross-domain research questions; [exact targets and missing mechanisms](https://github.com/Sodelin/Cross-Scale-Causal-Formalization/blob/main/research/open-problem-catalogs-2026-09-30/EXPLANATION-AND-PRIORITIES.md) explain their scientific scope.
 
-## Current evidence
+## Recovered package and remaining recovery question
 
-At 27 September 2026 Pacific time, the accessible GitHub repository `Sodelin/Mathematics-of-Psychology-Formalized` has a minimal main README and this session's `research/solidarity-at-scale-2026-09-27` proof branch. Its branch listing and all-state pull-request listing did not expose the larger corpus. Relevant file and continuity searches did not locate an archive or original theorem inventory. The user reports that the corpus exists; its location remains unresolved. This does not imply the work never existed.
+The remembered **67-item package has been located and preserved**: the same 16 solidarity declarations plus 51 foundations declarations. The clinical source-model extension adds 18, giving the integrated 85-declaration corpus. The 16 declarations in [Mathematics of Psychology Formalized](https://github.com/Sodelin/Mathematics-of-Psychology-Formalized) are the preserved earlier component, not 16 more results. See [the integrated source map](../PUBLICATION-COVERAGE-2026-09-29.md) and [every declaration and its contribution](../research/publication-audit-2026-09-29/THEOREM-BY-THEOREM.md).
 
-No existing branch was reset, force-pushed, or deleted. The original checkout is retained. Until original files are available, the import is **pending**, and no replacement proof inventory will be invented.
+A **distinct older corpus** mentioned in historical notes still lacks an original source location. That unresolved recovery question must not be confused with the now recovered 67-item package. No replacement inventory for that distinct work is invented.
+
+This correction supersedes the current-status interpretation of the [27 September account](https://github.com/Sodelin/Formalizing-Soft-Sciences/blob/7ed8634785b5568c1856ab4e9a29e4f83489a431/psychology/README.md). Its earlier investigation remains preserved at that commit. Current counts are drawn from the newer publication records; no new build is claimed by this documentation update.
 
 ## Psychology content available now
 
-The new **[Foundations I report](../projects/foundations/report.md)** extends the psychology work beyond identity and solidarity. Its [theorem guide](../projects/foundations/theorem-guide.md) explains exact identification, additive measurement and bias bounds, observational causal ambiguity, and learning from labeled evidence. The 51 new declarations across six modules are additional work; they are not an import of the missing earlier corpus.
+[Foundations I](../projects/foundations/README.md), its [report](../projects/foundations/report.md) and [theorem guide](../projects/foundations/theorem-guide.md) explain measurement, identification, observational causal ambiguity and learning from labeled evidence. These are consequences of declared mathematical models, not validation of psychological constructs or instruments.
 
-For psychology specifically, these proofs establish consequences of specified response equations and inference rules. They do not validate a scale, prove a theory of human learning, identify a real causal effect, or demonstrate that a psychological construct exists. The [problem register](../projects/foundations/open-problems.md) prioritizes recovering prior work, then extending measurement, experiment design, and noisy learning with appropriate mathematical dependencies.
+The [clinical package](../clinical) and [publication source map](../PUBLICATION-COVERAGE-2026-09-29.md) distinguish pinned source-table/transition fragments from the published model's full belief inference, learning and policy mechanisms. A fragment cannot establish treatment effectiveness or answer a broader CBT open question by itself.
 
-The substantial psychology section in [What Lean proves](../projects/solidarity-at-scale/formal/what-lean-proves.md) distinguishes familiarity, symbol recognition, beliefs, preferences, identity structure, and behavior. It explains exactly what the available formal results do and do not establish, and proposes future targets without presenting them as implemented. The guide is available as a [PDF](../projects/solidarity-at-scale/outputs/what-lean-proves.pdf) and [DOCX](../projects/solidarity-at-scale/outputs/what-lean-proves.docx).
+[What Lean proves](../projects/solidarity-at-scale/formal/what-lean-proves.md) preserves the initial guide's psychology discussion. The [solidarity manuscript](../projects/solidarity-at-scale/paper/manuscript.md), [proposed study](../projects/solidarity-at-scale/protocol/empirical-study.md) and [formal specification](../projects/solidarity-at-scale/formal/specification.md) separate formal variables from empirical interpretation.
 
-The [paper](../projects/solidarity-at-scale/paper/manuscript.md) discusses relational familiarity, cultural-marker learning, identity complexity, and cooperation. Its source register identifies the access depth and limitations of each psychological source. The [proposed study](../projects/solidarity-at-scale/protocol/empirical-study.md) separates these constructs in a possible experiment.
+## Research targets and filing
 
-The [current Lean specification](../projects/solidarity-at-scale/formal/specification.md) concerns relationships among formal variables. It does not verify the relational-self theory, estimate a cognitive relationship limit, or establish an empirical effect of identity on behavior. Those claims need observations and a justified connection between the formal variables and psychological measures.
+Use the omnibus's [psychological catalog](https://github.com/Sodelin/Cross-Scale-Causal-Formalization/blob/main/research/open-problem-catalogs-2026-09-30/PSYCHOLOGICAL.md) for source-backed directions and the local [development register](../projects/foundations/open-problems.md) for implementation/history. An omnibus question ID should link to a source-matched project and its exact evidence; elementary local model questions are not silently promoted into external open problems.
 
-## Import procedure
+Biopsychology may span biological and psychological tags. Share a question record and explicit observation/intervention interface; preserve domain-specific mechanisms. Do not recreate completed generic measurement or quotient mathematics merely to populate a discipline folder.
 
-Obtain the original repository URL and commit, a git bundle, or a project archive including its Lean sources and configuration. Inventory and hash it in an isolated directory. Preserve an unchanged snapshot and import provenance; keep the original repository intact. Reproduce its existing build before any readability or toolchain changes. Map every theorem to its informal meaning, assumptions, source, and check status. Only then reorganize presentation or combine modules. Readability edits must preserve theorem statements and pass the original checks; mathematical changes require explicit explanation.
+## If the distinct older corpus is located
 
-The next required input is the location or an archive of that original corpus. The import remains incomplete until source-to-import hashes and the original proof inventory can be compared.
+Preserve its repository URL and commit, original sources, documents, toolchain and hash manifest. Reproduce its original build before changes, map the actual proof inventory, and import only with provenance. Keep the source repository and historical records intact. This recovery task is separate from ongoing use of the recovered 67/85 corpus.
