@@ -4,7 +4,7 @@ Research in psychology and the social sciences, with readable explanations, sour
 
 ## New Wave research workflow
 
-[New Wave: source-connected research and strongest-useful-target review](NEW-WAVE.md) requires an external problem, a consequential strengthening attempt, exact verification status, and a concrete downstream use. [Cross-project retrospective](research/new-wave-2026-09-30/RETROSPECTIVE.md) · [CBT candidate assessment: on hold](research/new-wave-2026-09-30/STARTER-ASSESSMENT.md) · [Task contract](research/new-wave-2026-09-30/task-contract.template.json).
+[New Wave: discover the right target, then execute it](NEW-WAVE.md) separates target discovery and system-scope challenges from execution and verification. [NANUQ experiment dossier](https://github.com/Sodelin/Work-on-Samuel-Alexander-Research-/blob/main/research/new-wave/NANUQ-EXPERIMENT-DOSSIER.md) reconstructs the evidence behind this revision. [Cross-project retrospective](research/new-wave-2026-09-30/RETROSPECTIVE.md) · [CBT candidate assessment: on hold](research/new-wave-2026-09-30/STARTER-ASSESSMENT.md) · [Task contract](research/new-wave-2026-09-30/task-contract.template.json).
 
 ## Read the current work
 
