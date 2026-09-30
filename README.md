@@ -2,6 +2,10 @@
 
 Research in psychology and the social sciences, with readable explanations, source evidence, and precisely scoped Lean proofs.
 
+## New Wave research workflow
+
+[New Wave: source-connected research and strongest-useful-target review](NEW-WAVE.md) requires an external problem, a consequential strengthening attempt, exact verification status, and a concrete downstream use. [Cross-project retrospective](research/new-wave-2026-09-30/RETROSPECTIVE.md) · [CBT candidate assessment: on hold](research/new-wave-2026-09-30/STARTER-ASSESSMENT.md) · [Task contract](research/new-wave-2026-09-30/task-contract.template.json).
+
 ## Read the current work
 
 **Publication update, 29 September:** all 85 declarations are on main and individually accounted for. [Every theorem and its contribution](research/publication-audit-2026-09-29/THEOREM-BY-THEOREM.md) · [publication judgment and exact source comparisons](research/publication-audit-2026-09-29/README.md) · [complete result-to-source map](PUBLICATION-COVERAGE-2026-09-29.md).

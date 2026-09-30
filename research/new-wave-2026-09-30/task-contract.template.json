@@ -1,0 +1,42 @@
+{
+  "protocol": "NEW-WAVE.md",
+  "status": "DRAFT_NOT_ADMITTED",
+  "question_id": null,
+  "source": {
+    "primary_url": null,
+    "locator": null,
+    "accurate_statement": null,
+    "category": null,
+    "closest_subsequent_work": [],
+    "status_search_date": null,
+    "unresolved_obstacle": null
+  },
+  "correspondence": {"object_map": [], "changed_assumptions": [], "omitted_mechanisms": []},
+  "target": {
+    "original_statement": null,
+    "domain": null,
+    "assumptions": [],
+    "baseline": null,
+    "strongest_useful_statement": null,
+    "significance_of_strengthening": null,
+    "dated_revisions": []
+  },
+  "execution": {
+    "requested_model": "Sol 6.1",
+    "requested_effort": "Max",
+    "actual_model": "unknown",
+    "actual_effort": "unknown",
+    "total_budget": null,
+    "phase_budgets": {},
+    "roles": {"integrator": null, "source_reviewer": null, "independent_challenger": null},
+    "checkpoints": [],
+    "actual_resource_use": null
+  },
+  "ledger": [],
+  "strengthening_attempts": [],
+  "boundary_evidence": [],
+  "verification": {"commit": null, "toolchain": null, "commands": [], "logs": [], "trust_boundary": null, "fresh_build_status": "NOT_RUN", "unresolved_findings": []},
+  "contribution": {"strongest_established_statement": null, "remaining_gap": null, "baseline_delta": null, "significance_delta": null, "downstream_consumer": null, "required_interface": null},
+  "publication": {"repository_published": false, "submitted": false, "reviewed": false, "accepted": false, "adopted": false, "evidence": []},
+  "stop": {"reason": null, "smallest_meaningful_next_investigation": null}
+}
