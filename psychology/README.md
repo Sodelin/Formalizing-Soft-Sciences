@@ -14,7 +14,7 @@ This correction supersedes the current-status interpretation of the [27 Septembe
 
 [Foundations I](../projects/foundations/README.md), its [report](../projects/foundations/report.md) and [theorem guide](../projects/foundations/theorem-guide.md) explain measurement, identification, observational causal ambiguity and learning from labeled evidence. These are consequences of declared mathematical models, not validation of psychological constructs or instruments.
 
-The [clinical package](../clinical) and [publication source map](../PUBLICATION-COVERAGE-2026-09-29.md) distinguish pinned source-table/transition fragments from the published model's full belief inference, learning and policy mechanisms. A fragment cannot establish treatment effectiveness or answer a broader CBT open question by itself.
+The [clinical observation module](../clinical/ClinicalModels/PublishedCBT.lean) and [publication source map](../PUBLICATION-COVERAGE-2026-09-29.md) distinguish pinned source-table/transition fragments from the published model's full belief inference, learning and policy mechanisms. A fragment cannot establish treatment effectiveness or answer a broader CBT open question by itself.
 
 [What Lean proves](../projects/solidarity-at-scale/formal/what-lean-proves.md) preserves the initial guide's psychology discussion. The [solidarity manuscript](../projects/solidarity-at-scale/paper/manuscript.md), [proposed study](../projects/solidarity-at-scale/protocol/empirical-study.md) and [formal specification](../projects/solidarity-at-scale/formal/specification.md) separate formal variables from empirical interpretation.
 
