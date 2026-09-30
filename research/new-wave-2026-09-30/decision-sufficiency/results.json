@@ -1,0 +1,24 @@
+{
+  "status": "all assertions passed",
+  "decision_sufficiency_cases": 1728,
+  "deterministic_minimax_regret_cases": 1728,
+  "free_refinement_cases": 21312,
+  "xor_accuracy": {
+    "none": "1/2",
+    "x": "1/2",
+    "y": "1/2",
+    "both": "1"
+  },
+  "xor_net_utility_at_cost_1_over_10": {
+    "none": "1/2",
+    "x": "2/5",
+    "y": "2/5",
+    "both": "4/5"
+  },
+  "nuisance_accuracy": {
+    "none": "1/2",
+    "nuisance_two_bits": "1/2",
+    "target_one_bit": "1"
+  },
+  "scope": "Exhaustive 3-state, 2-action binary-utility cases; uniform prior for refinement. General claims have handwritten proofs in REPORT.md."
+}
