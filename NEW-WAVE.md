@@ -16,7 +16,11 @@ Admission requires both a source connection and a precise research target. If ei
 
 ## 2. Specify the strongest useful target
 
-Before proving the baseline, register the ambitious statement, domain, assumptions, quantifiers and output. Explain which stronger conclusion would materially resolve the source obstacle. Evaluate these axes where relevant:
+Before proving the baseline, register the ambitious statement, domain, assumptions, quantifiers and output. Explain which stronger conclusion would materially resolve the source obstacle.
+
+Before choosing a fixed level or case, inspect whether the proposed argument uses that restriction at all. If it does not, formulate the general statement first. For a surprisingly easy later generalization, record which prior machinery did the work, why the original statement was narrower, and what the stronger result changes scientifically. Ease is a diagnostic of possible target-selection failure, not proof of novelty or failure. In the NANUQ retrospective, distinguish the reported rapid strengthening from the independently verified final claims; elapsed time and the full sequence of earlier attempts are not established by the current audit.
+
+Evaluate these axes where relevant:
 
 | Axis | Concrete challenge |
 |---|---|
