@@ -4,6 +4,8 @@ Revision 2, 29 September 2026 Pacific / 30 September UTC. This revision corrects
 
 For research, the intended chain is **target discovery ↔ external problem → checked contribution → specific new capability → subsequent research or submission**. Subsequent use is a claim to substantiate when made, not a requirement for already having an adopter. Read the [NANUQ experiment dossier](https://github.com/Sodelin/Work-on-Samuel-Alexander-Research-/blob/main/research/new-wave/NANUQ-EXPERIMENT-DOSSIER.md) for the motivating evidence.
 
+The [analysis of Nolan's theory](research/new-wave-2026-09-30/NOLAN-THEORY-ANALYSIS.md) explains the original hypothesis, the proposed formal model, its limits, and the dependency-driven generative intervention. This workflow is an application of that hypothesis, not a validated theory of model internals.
+
 ## 0. Challenge the target, separately from checking execution
 
 This universal instruction applies to research, software and other tasks. Use it before substantial implementation, after the first working result/design, and before closing:
@@ -57,7 +59,7 @@ Preserve the initial target and dated revisions. A narrower result may be valuab
 
 ## 3. Use agents for distinct checks
 
-The user's preferred executor is Sol 6.1 at Max when the platform exposes it. Record the actual model and effort when observable; otherwise record unknown. A requested preference is not evidence of a model switch or a cost advantage. Budget total work across agents, not just the integrator's run.
+The user's preferred executor is Sol 6.1 when available; effort is task-specific, with Medium the latest stated session preference. Record the actual model and effort when observable; otherwise record unknown. A requested preference is not evidence of a model switch or a cost advantage. Budget total work across agents, not just the integrator's run.
 
 An integrator owns the registered question and contribution chain. A source reviewer checks correspondence and prior work. A proof challenger independently reconstructs the claim and searches for vacuity, inconsistent assumptions, counterexamples and stronger useful alternatives. Give the challenger the primary question and artifact before supplying the author's verdict. Distinct agents can still share blind spots, so their agreement is not proof.
 
